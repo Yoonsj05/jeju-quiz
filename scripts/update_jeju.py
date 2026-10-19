@@ -1,27 +1,19 @@
 
-# ==========================================
-# 제주어 OpenAPI 자동 데이터 갱신
-# 공공데이터포털 등록 API
-# 제공기관: 제주특별자치도
-# ==========================================
-
 import html
 import re
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-# 실제 제주어 OpenAPI 주소
+# 제주특별자치도 OpenAPI
 API_URL = (
     "https://www.jeju.go.kr/rest/"
     "JejuDialectService/getJejuDialectServiceList"
     "?page=1&pageSize=100"
 )
 
-# 저장할 XML 파일
 OUTPUT_FILE = Path("jeju.xml")
 
-# 가져올 데이터 항목
 FIELDS = [
     "seq",
     "type",
@@ -39,7 +31,40 @@ FIELDS = [
 ]
 
 
-# XML 태그 안의 내용 추출
+# XML/HTML 문자 참조 해석
+def decode_entities(text):
+    for _ in range(5):
+        decoded = html.unescape(text)
+
+        if decoded == text:
+            break
+
+        text = decoded
+
+    return text
+
+
+# XML에서 허용하지 않는 제어 문자만 제거
+def clean_text(text):
+    text = decode_entities(text)
+
+    result = []
+
+    for char in text:
+        code = ord(char)
+
+        if (
+            code in (9, 10, 13)
+            or 0x20 <= code <= 0xD7FF
+            or 0xE000 <= code <= 0xFFFD
+            or 0x10000 <= code <= 0x10FFFF
+        ):
+            result.append(char)
+
+    # 제주어 특수 문자는 바꾸지 않음
+    return "".join(result)
+
+
 def get_tag_text(text, tag):
     pattern = (
         r"<" + re.escape(tag) +
@@ -57,26 +82,9 @@ def get_tag_text(text, tag):
     if match is None:
         return ""
 
-    return html.unescape(match.group(1).strip())
+    return clean_text(match.group(1).strip())
 
 
-# 표시하기 어려운 특수 문자 정리
-def clean_text(text):
-    result = []
-
-    for char in text:
-        code = ord(char)
-
-        # 원본에서 네모로 보이던 사설 영역 문자
-        if 0xE000 <= code <= 0xF8FF:
-            result.append("~")
-        else:
-            result.append(char)
-
-    return "".join(result)
-
-
-# OpenAPI 데이터 요청
 def download_data():
     print("제주어 OpenAPI 호출 시작")
 
@@ -93,22 +101,24 @@ def download_data():
         timeout=30
     ) as response:
         raw = response.read()
-
         charset = response.headers.get_content_charset()
 
     if charset:
-        text = raw.decode(charset, errors="replace")
+        text = raw.decode(
+            charset,
+            errors="replace"
+        )
     else:
-        text = raw.decode("utf-8", errors="replace")
+        text = raw.decode(
+            "utf-8",
+            errors="replace"
+        )
 
-    print("API 응답 수신 완료")
-
+    print("인터넷에서 API 데이터 수신 완료")
     return text
 
 
-# 제주어 데이터 정리 및 XML 생성
 def create_xml(api_text):
-
     result_code = get_tag_text(
         api_text,
         "resultCode"
@@ -116,10 +126,9 @@ def create_xml(api_text):
 
     if result_code != "00":
         raise ValueError(
-            "API 응답 실패: " + result_code
+            "API 응답 오류: " + result_code
         )
 
-    # API에서 반환한 item 추출
     items = re.findall(
         r"<item(?:\s[^>]*)?>(.*?)</item\s*>",
         api_text,
@@ -128,7 +137,7 @@ def create_xml(api_text):
 
     if len(items) < 30:
         raise ValueError(
-            "API 단어 수가 비정상적이에요: " +
+            "데이터 개수가 너무 적어요: " +
             str(len(items))
         )
 
@@ -137,12 +146,10 @@ def create_xml(api_text):
     ET.SubElement(root, "error").text = "false"
     ET.SubElement(root, "result").text = "SUCCESS"
     ET.SubElement(root, "resultCode").text = "00"
-    ET.SubElement(root, "resultMsg").text = "success"
 
     list_element = ET.SubElement(root, "list")
 
     for raw_item in items:
-
         item_element = ET.SubElement(
             list_element,
             "item"
@@ -153,8 +160,6 @@ def create_xml(api_text):
                 raw_item,
                 field
             )
-
-            value = clean_text(value)
 
             ET.SubElement(
                 item_element,
@@ -176,20 +181,14 @@ def create_xml(api_text):
     ET.SubElement(
         query,
         "rows"
-    ).text = get_tag_text(
-        api_text,
-        "rows"
-    ) or str(len(items))
-
-    tree = ET.ElementTree(root)
-
-    ET.indent(
-        tree,
-        space="  ",
-        level=0
+    ).text = (
+        get_tag_text(api_text, "rows")
+        or str(len(items))
     )
 
-    # 임시 파일에 먼저 저장
+    tree = ET.ElementTree(root)
+    ET.indent(tree, space="  ")
+
     temp_file = OUTPUT_FILE.with_suffix(".tmp")
 
     tree.write(
@@ -198,25 +197,20 @@ def create_xml(api_text):
         xml_declaration=True
     )
 
-    # XML 문법 검사
+    # 저장된 XML 정상 여부 검사
     ET.parse(temp_file)
 
-    # 검증에 성공한 경우에만 기존 파일 교체
+    # 검사에 성공한 경우만 갱신
     temp_file.replace(OUTPUT_FILE)
 
-    print(
-        "XML 저장 성공:",
-        len(items),
-        "개 단어"
-    )
+    print("XML 저장 성공")
+    print("가져온 단어 수:", len(items))
 
 
-# 실행 시작
 def main():
     api_text = download_data()
     create_xml(api_text)
-
-    print("제주어 데이터 갱신 완료")
+    print("OpenAPI 데이터 갱신 완료")
 
 
 if __name__ == "__main__":
