@@ -1,0 +1,92 @@
+
+name: Update Jeju Dialect Data
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # 매일 한국 시간 오전 9시 15분 무렵
+    - cron: "15 0 * * *"
+
+  push:
+    branches:
+      - main
+    paths:
+      - "index.html"
+      - "quiz.html"
+      - "wrong.html"
+      - "style.css"
+      - "script.js"
+      - "scripts/update_jeju.py"
+      - ".github/workflows/update-jeju.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jeju-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get repository files
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download and validate Jeju API data
+        run: python scripts/update_jeju.py
+
+      - name: Save updated XML to GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add jeju.xml
+
+          if git diff --cached --quiet; then
+            echo "No XML changes"
+          else
+            git commit -m "Update Jeju dialect XML"
+            git push
+          fi
+
+      - name: Prepare website files
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+          cp quiz.html _site/
+          cp wrong.html _site/
+          cp style.css _site/
+          cp script.js _site/
+          cp jeju.xml _site/
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: "./_site"
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
