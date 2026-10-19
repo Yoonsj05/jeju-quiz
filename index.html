@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>혼저옵서예 | 제주어 사전</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container nav">
+      <a href="index.html" class="logo">혼저옵서예</a>
+
+      <nav class="nav-links">
+        <a href="index.html" class="active">제주어 사전</a>
+        <a href="quiz.html">제주어 퀴즈</a>
+        <a href="wrong.html">오답노트</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="hero">
+      <div class="hero-label">제주어 학습 프로젝트</div>
+      <h1>제주어, 얼마나 알고 있어?</h1>
+      <p>
+        제주특별자치도 공공데이터를 활용해
+        제주어의 뜻을 알아보고 공부해보세요.
+      </p>
+    </section>
+
+    <section class="search-section">
+      <h2>제주어 사전</h2>
+      <p class="section-desc">
+        공공데이터포털에 등록된 제주어 OpenAPI를 이용해요.
+      </p>
+
+      <div class="search-box">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="현재 페이지에서 제주어 또는 뜻 검색"
+          aria-label="제주어 검색"
+        >
+        <button id="searchButton">검색</button>
+      </div>
+
+      <p class="search-note">
+        검색은 현재 불러온 20개 단어를 대상으로 해요.
+        다른 단어는 페이지를 이동해서 확인할 수 있어요.
+      </p>
+    </section>
+
+    <section class="dictionary-section">
+      <div class="section-top">
+        <h2>오늘의 제주어 탐색</h2>
+        <span id="totalCount" class="count">불러오는 중</span>
+      </div>
+
+      <p id="statusMessage" class="status" role="status">
+        제주어 데이터를 불러오고 있어요.
+      </p>
+
+      <div id="wordList" class="word-grid"></div>
+
+      <div class="pagination">
+        <button id="prevButton">이전</button>
+        <span id="pageInfo">1페이지</span>
+        <button id="nextButton">다음</button>
+      </div>
+    </section>
+
+    <section class="quiz-banner">
+      <div>
+        <h2>제주어 실력을 확인해볼까?</h2>
+        <p>공부한 단어로 퀴즈에 도전해보세요.</p>
+      </div>
+      <a href="quiz.html" class="quiz-link">
+        퀴즈 풀러 가기
+      </a>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>혼저옵서예 | 제주어 학습 웹앱</p>
+    <p>데이터 출처: 제주특별자치도 · 공공데이터포털</p>
+  </footer>
+
+</body>
+</html>

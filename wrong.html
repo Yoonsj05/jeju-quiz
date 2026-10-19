@@ -1,0 +1,404 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <title>혼저옵서예 | 제주어 오답노트</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .wrong-page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 36px 0 65px;
+    }
+
+    .wrong-hero {
+      padding: 45px 30px;
+      border-radius: 22px;
+      background: linear-gradient(135deg, #e7f5e5, #f0f8eb);
+      text-align: center;
+    }
+
+    .wrong-hero h1 {
+      font-size: 32px;
+      margin: 0 0 10px;
+      color: #2c7658;
+    }
+
+    .wrong-hero p {
+      color: #64776a;
+      margin: 0;
+    }
+
+    .wrong-toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 15px;
+      margin: 35px 0 20px;
+    }
+
+    .wrong-count {
+      font-size: 17px;
+      font-weight: bold;
+    }
+
+    .wrong-count strong {
+      color: #328565;
+    }
+
+    .clear-button {
+      border: 1px solid #e4b9b9;
+      border-radius: 10px;
+      padding: 11px 15px;
+      background: white;
+      color: #b84c4c;
+    }
+
+    .clear-button:hover {
+      background: #fff0f0;
+    }
+
+    .clear-button:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+
+    .wrong-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .wrong-card {
+      padding: 25px;
+      background: white;
+      border: 1px solid #e5eae3;
+      border-radius: 18px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.03);
+    }
+
+    .wrong-card h3 {
+      margin: 0 0 12px;
+      font-size: 23px;
+      color: #328565;
+      overflow-wrap: anywhere;
+    }
+
+    .meaning-label {
+      color: #8a958b;
+      font-size: 13px;
+      margin-bottom: 5px;
+    }
+
+    .wrong-meaning {
+      color: #566459;
+      overflow-wrap: anywhere;
+      min-height: 50px;
+      margin: 0 0 20px;
+    }
+
+    .learned-button {
+      width: 100%;
+      border: none;
+      border-radius: 10px;
+      padding: 12px;
+      background: #e6f3e8;
+      color: #297553;
+      font-weight: bold;
+    }
+
+    .learned-button:hover {
+      background: #d4e9d8;
+    }
+
+    .empty-state {
+      padding: 65px 20px;
+      border: 1px solid #e3e9e2;
+      border-radius: 18px;
+      text-align: center;
+      background: white;
+      color: #68766c;
+    }
+
+    .empty-state h2 {
+      color: #328565;
+      margin-bottom: 10px;
+    }
+
+    .empty-state p {
+      margin-bottom: 25px;
+    }
+
+    .wrong-bottom {
+      text-align: center;
+      margin-top: 45px;
+    }
+
+    .wrong-bottom a,
+    .empty-state a {
+      display: inline-block;
+      background: #328565;
+      color: white;
+      padding: 13px 24px;
+      border-radius: 11px;
+      font-weight: bold;
+    }
+
+    .wrong-bottom a:hover,
+    .empty-state a:hover {
+      background: #276c50;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    @media (max-width: 800px) {
+      .wrong-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 550px) {
+      .wrong-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .wrong-hero h1 {
+        font-size: 26px;
+      }
+
+      .wrong-toolbar {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- 상단 메뉴 -->
+  <header class="header">
+    <div class="container nav">
+      <a href="index.html" class="logo">혼저옵서예</a>
+
+      <nav class="nav-links">
+        <a href="index.html">제주어 사전</a>
+        <a href="quiz.html">제주어 퀴즈</a>
+        <a href="wrong.html" class="active">오답노트</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container wrong-page">
+
+    <!-- 오답노트 소개 -->
+    <section class="wrong-hero">
+      <h1>나만의 제주어 오답노트</h1>
+      <p>
+        틀린 단어를 다시 확인하고
+        하나씩 익혀보세요.
+      </p>
+    </section>
+
+    <!-- 저장된 오답 개수 -->
+    <section class="wrong-toolbar">
+      <div class="wrong-count">
+        복습할 단어 <strong id="wrongCount">0</strong>개
+      </div>
+
+      <button id="clearAllButton" class="clear-button">
+        전체 삭제
+      </button>
+    </section>
+
+    <!-- 오답 단어 카드 -->
+    <section id="wrongList" class="wrong-grid"
+             aria-label="저장된 오답 목록">
+    </section>
+
+    <!-- 오답이 없을 때 -->
+    <section id="emptyState" class="empty-state hidden">
+      <h2>아직 저장된 오답이 없어요!</h2>
+      <p>
+        퀴즈에서 틀린 단어가 생기면
+        이곳에 자동으로 저장돼요.
+      </p>
+      <a href="quiz.html">제주어 퀴즈 풀러 가기</a>
+    </section>
+
+    <div id="bottomLink" class="wrong-bottom">
+      <a href="quiz.html">퀴즈 다시 도전하기</a>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <p>혼저옵서예 | 제주어 학습 웹앱</p>
+    <p>데이터 출처: 제주특별자치도 · 공공데이터포털</p>
+  </footer>
+
+  <script>
+    // =======================================
+    // 제주어 오답노트
+    // 퀴즈에서 저장한 localStorage 데이터 사용
+    // =======================================
+
+    const STORAGE_KEY = "jejuWrongAnswers";
+
+    const wrongList =
+      document.getElementById("wrongList");
+
+    const wrongCount =
+      document.getElementById("wrongCount");
+
+    const emptyState =
+      document.getElementById("emptyState");
+
+    const clearAllButton =
+      document.getElementById("clearAllButton");
+
+    const bottomLink =
+      document.getElementById("bottomLink");
+
+    // 저장된 오답 불러오기
+    function getWrongAnswers() {
+      try {
+        const saved = JSON.parse(
+          localStorage.getItem(STORAGE_KEY) || "[]"
+        );
+
+        return Array.isArray(saved) ? saved : [];
+
+      } catch (error) {
+        console.error("오답 불러오기 오류:", error);
+        return [];
+      }
+    }
+
+    // 오답 저장하기
+    function saveWrongAnswers(words) {
+      try {
+        localStorage.setItem(
+          STORAGE_KEY,
+          JSON.stringify(words)
+        );
+
+        return true;
+
+      } catch (error) {
+        console.error("오답 저장 오류:", error);
+        alert("오답노트 저장에 실패했어요.");
+        return false;
+      }
+    }
+
+    // 오답 목록 화면에 표시
+    function displayWrongAnswers() {
+      const words = getWrongAnswers();
+
+      wrongList.innerHTML = "";
+      wrongCount.textContent = words.length;
+
+      // 오답이 없을 때
+      if (words.length === 0) {
+        emptyState.classList.remove("hidden");
+        bottomLink.classList.add("hidden");
+        clearAllButton.disabled = true;
+        return;
+      }
+
+      emptyState.classList.add("hidden");
+      bottomLink.classList.remove("hidden");
+      clearAllButton.disabled = false;
+
+      // 단어별 카드 생성
+      words.forEach(function(word, index) {
+
+        const card = document.createElement("article");
+        card.className = "wrong-card";
+
+        const title = document.createElement("h3");
+        title.textContent = word.name || "이름 없음";
+
+        const meaningLabel = document.createElement("div");
+        meaningLabel.className = "meaning-label";
+        meaningLabel.textContent = "올바른 뜻";
+
+        const meaning = document.createElement("p");
+        meaning.className = "wrong-meaning";
+        meaning.textContent = word.meaning || "뜻 없음";
+
+        const learnedButton = document.createElement("button");
+        learnedButton.className = "learned-button";
+        learnedButton.textContent = "암기 완료";
+
+        learnedButton.addEventListener("click", function() {
+          removeWrongAnswer(index);
+        });
+
+        card.appendChild(title);
+        card.appendChild(meaningLabel);
+        card.appendChild(meaning);
+        card.appendChild(learnedButton);
+
+        wrongList.appendChild(card);
+      });
+    }
+
+    // 특정 오답 한 개 삭제
+    function removeWrongAnswer(index) {
+      const words = getWrongAnswers();
+
+      if (index < 0 || index >= words.length) {
+        return;
+      }
+
+      const updatedWords = words.filter(function(word, i) {
+        return i !== index;
+      });
+
+      if (saveWrongAnswers(updatedWords)) {
+        displayWrongAnswers();
+      }
+    }
+
+    // 전체 오답 삭제
+    function clearAllWrongAnswers() {
+      const words = getWrongAnswers();
+
+      if (words.length === 0) {
+        return;
+      }
+
+      const confirmed = confirm(
+        "저장된 오답 " + words.length +
+        "개를 모두 삭제할까요?"
+      );
+
+      if (!confirmed) {
+        return;
+      }
+
+      if (saveWrongAnswers([])) {
+        displayWrongAnswers();
+      }
+    }
+
+    // 전체 삭제 버튼
+    clearAllButton.addEventListener(
+      "click",
+      clearAllWrongAnswers
+    );
+
+    // 처음 페이지를 열 때 오답 표시
+    displayWrongAnswers();
+  </script>
+
+</body>
+</html>

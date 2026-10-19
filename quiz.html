@@ -1,0 +1,702 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>혼저옵서예 | 제주어 퀴즈</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .quiz-container {
+      max-width: 760px;
+      margin: 45px auto 80px;
+      padding: 0 16px;
+    }
+
+    .quiz-intro {
+      text-align: center;
+      padding: 35px 20px;
+    }
+
+    .quiz-intro h1 {
+      font-size: 32px;
+      color: #328565;
+      margin-bottom: 12px;
+    }
+
+    .quiz-intro p {
+      color: #718075;
+    }
+
+    .quiz-box {
+      background: white;
+      border: 1px solid #e4eae2;
+      border-radius: 22px;
+      padding: 35px;
+      box-shadow: 0 5px 18px rgba(0,0,0,0.04);
+    }
+
+    .quiz-progress {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+      font-weight: bold;
+      color: #328565;
+    }
+
+    .progress-bar {
+      width: 100%;
+      height: 10px;
+      border-radius: 20px;
+      background: #e8eee9;
+      overflow: hidden;
+      margin-bottom: 35px;
+    }
+
+    .progress-fill {
+      width: 0%;
+      height: 100%;
+      background: #328565;
+      transition: width 0.3s;
+    }
+
+    .question-label {
+      font-size: 14px;
+      color: #829086;
+      margin-bottom: 10px;
+    }
+
+    .question-word {
+      font-size: 35px;
+      font-weight: bold;
+      color: #27332d;
+      margin: 0 0 10px;
+      overflow-wrap: anywhere;
+    }
+
+    .question-desc {
+      margin-bottom: 28px;
+      color: #718075;
+    }
+
+    .options {
+      display: grid;
+      gap: 12px;
+    }
+
+    .option-button {
+      width: 100%;
+      padding: 17px 20px;
+      text-align: left;
+      background: #f8faf8;
+      border: 2px solid #e6ebe5;
+      border-radius: 13px;
+      color: #344138;
+      transition: 0.2s;
+    }
+
+    .option-button:hover:not(:disabled) {
+      border-color: #328565;
+      background: #edf7ef;
+    }
+
+    .option-button.correct {
+      background: #def4e4;
+      border-color: #328565;
+      color: #206044;
+      font-weight: bold;
+    }
+
+    .option-button.wrong {
+      background: #fce9e8;
+      border-color: #db6666;
+      color: #a43232;
+    }
+
+    .option-button:disabled {
+      cursor: default;
+    }
+
+    .feedback {
+      margin-top: 24px;
+      padding: 17px;
+      border-radius: 12px;
+      background: #f2f6f2;
+      line-height: 1.7;
+      overflow-wrap: anywhere;
+    }
+
+    .primary-button {
+      display: block;
+      width: 100%;
+      background: #328565;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      padding: 17px;
+      margin-top: 25px;
+      font-weight: bold;
+    }
+
+    .primary-button:hover:not(:disabled) {
+      background: #276c50;
+    }
+
+    .primary-button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .result-score {
+      text-align: center;
+      font-size: 64px;
+      font-weight: bold;
+      color: #328565;
+      margin: 20px 0;
+    }
+
+    .result-message {
+      text-align: center;
+      color: #68776d;
+      margin-bottom: 24px;
+    }
+
+    .result-detail {
+      text-align: center;
+      background: #eff7ef;
+      padding: 20px;
+      border-radius: 14px;
+    }
+
+    .error-message {
+      text-align: center;
+      color: #b83232;
+      line-height: 1.8;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    @media (max-width: 550px) {
+      .quiz-box {
+        padding: 23px 18px;
+      }
+
+      .question-word {
+        font-size: 28px;
+      }
+
+      .quiz-intro h1 {
+        font-size: 27px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- 상단 메뉴 -->
+  <header class="header">
+    <div class="container nav">
+      <a href="index.html" class="logo">혼저옵서예</a>
+
+      <nav class="nav-links">
+        <a href="index.html">제주어 사전</a>
+        <a href="quiz.html" class="active">제주어 퀴즈</a>
+        <a href="wrong.html">오답노트</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="quiz-container">
+
+    <div class="quiz-intro">
+      <h1>제주어 퀴즈 도전!</h1>
+      <p>
+        제주어의 뜻을 맞혀보세요.<br>
+        총 10문제, 문제당 10점이에요.
+      </p>
+    </div>
+
+    <!-- 시작 화면 -->
+    <section id="startScreen" class="quiz-box">
+      <h2>제주어 실력 테스트</h2>
+      <p>
+        제주어 단어를 보고 알맞은 뜻을 선택해보세요.
+        실제 공공데이터에서 가져온 단어로 문제가 출제돼요.
+      </p>
+
+      <button
+        id="startButton"
+        class="primary-button"
+        disabled
+      >
+        문제 준비 중...
+      </button>
+
+      <p id="loadStatus" role="status"></p>
+    </section>
+
+    <!-- 문제 화면 -->
+    <section id="quizScreen" class="quiz-box hidden">
+
+      <div class="quiz-progress">
+        <span id="questionNumber">1 / 10</span>
+        <span id="scoreDisplay">0점</span>
+      </div>
+
+      <div class="progress-bar">
+        <div id="progressFill" class="progress-fill"></div>
+      </div>
+
+      <p class="question-label">다음 제주어의 뜻은?</p>
+
+      <h2 id="questionWord" class="question-word"></h2>
+
+      <p class="question-desc">
+        아래 보기 중 정답을 하나 선택해보세요.
+      </p>
+
+      <div id="options" class="options"></div>
+
+      <div id="feedback" class="feedback hidden"
+           role="status"></div>
+
+      <button
+        id="nextButton"
+        class="primary-button hidden"
+      >
+        다음 문제
+      </button>
+
+    </section>
+
+    <!-- 결과 화면 -->
+    <section id="resultScreen" class="quiz-box hidden">
+
+      <h2 style="text-align:center;">퀴즈 완료!</h2>
+
+      <div id="finalScore" class="result-score">0점</div>
+
+      <p id="resultMessage" class="result-message"></p>
+
+      <div id="resultDetail" class="result-detail"></div>
+
+      <button
+        id="retryButton"
+        class="primary-button"
+      >
+        다시 도전하기
+      </button>
+
+      <a href="wrong.html"
+         class="primary-button"
+         style="text-align:center; background:#64796b;">
+        오답노트 보러 가기
+      </a>
+
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>혼저옵서예 | 제주어 학습 웹앱</p>
+    <p>데이터 출처: 제주특별자치도 · 공공데이터포털</p>
+  </footer>
+
+  <script>
+    // ==========================================
+    // 제주어 객관식 퀴즈
+    // XML 기반 데이터 활용
+    // ==========================================
+
+    const XML_FILE = "./jeju.xml";
+    const QUESTION_COUNT = 10;
+
+    let allWords = [];
+    let questions = [];
+    let questionIndex = 0;
+    let score = 0;
+    let wrongCount = 0;
+    let answered = false;
+
+    const startScreen =
+      document.getElementById("startScreen");
+    const quizScreen =
+      document.getElementById("quizScreen");
+    const resultScreen =
+      document.getElementById("resultScreen");
+
+    const startButton =
+      document.getElementById("startButton");
+    const loadStatus =
+      document.getElementById("loadStatus");
+
+    const questionNumber =
+      document.getElementById("questionNumber");
+    const scoreDisplay =
+      document.getElementById("scoreDisplay");
+    const progressFill =
+      document.getElementById("progressFill");
+    const questionWord =
+      document.getElementById("questionWord");
+    const options =
+      document.getElementById("options");
+    const feedback =
+      document.getElementById("feedback");
+    const nextButton =
+      document.getElementById("nextButton");
+
+    const finalScore =
+      document.getElementById("finalScore");
+    const resultMessage =
+      document.getElementById("resultMessage");
+    const resultDetail =
+      document.getElementById("resultDetail");
+
+    // XML 텍스트 읽기
+    function getXmlText(parent, tagName) {
+      const element = parent.querySelector(tagName);
+      return element ? element.textContent.trim() : "";
+    }
+
+    // 배열 순서를 랜덤으로 섞기
+    function shuffle(array) {
+      const result = [...array];
+
+      for (let i = result.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+
+        [result[i], result[j]] =
+          [result[j], result[i]];
+      }
+
+      return result;
+    }
+
+    // ==========================================
+    // 1. XML 데이터 불러오기
+    // ==========================================
+    async function loadQuizData() {
+      try {
+        const response = await fetch(XML_FILE);
+
+        if (!response.ok) {
+          throw new Error(
+            "XML 파일 읽기 실패: " + response.status
+          );
+        }
+
+        const xmlText = await response.text();
+
+        const parser = new DOMParser();
+        const xml = parser.parseFromString(
+          xmlText,
+          "application/xml"
+        );
+
+        if (xml.querySelector("parsererror")) {
+          throw new Error("XML 형식이 올바르지 않아요.");
+        }
+
+        const items = Array.from(
+          xml.querySelectorAll("list > item")
+        );
+
+        allWords = items.map(function(item) {
+          return {
+            id: getXmlText(item, "seq"),
+            name: getXmlText(item, "name"),
+            meaning: getXmlText(item, "contents")
+          };
+        }).filter(function(word) {
+          return word.name && word.meaning;
+        });
+
+        // 퀴즈에 사용할 서로 다른 뜻 확보
+        const uniqueMeanings = new Set(
+          allWords.map(word => word.meaning)
+        );
+
+        if (
+          allWords.length < QUESTION_COUNT ||
+          uniqueMeanings.size < 4
+        ) {
+          throw new Error(
+            "퀴즈를 만들기 위한 단어가 부족해요."
+          );
+        }
+
+        startButton.disabled = false;
+        startButton.textContent = "퀴즈 시작하기";
+        loadStatus.textContent =
+          "제주어 " + allWords.length +
+          "개를 불러왔어요. 준비 완료!";
+
+      } catch (error) {
+        console.error("퀴즈 데이터 오류:", error);
+
+        startButton.disabled = true;
+        startButton.textContent = "시작할 수 없어요";
+
+        loadStatus.className = "error-message";
+        loadStatus.textContent =
+          "데이터를 불러오지 못했어요: " +
+          error.message;
+      }
+    }
+
+    // ==========================================
+    // 2. 퀴즈 시작
+    // ==========================================
+    function startQuiz() {
+      // 같은 단어와 뜻이 중복 출제되지 않게 구성
+      const uniqueWords = [];
+      const usedNames = new Set();
+      const usedMeanings = new Set();
+
+      shuffle(allWords).forEach(function(word) {
+        if (
+          !usedNames.has(word.name) &&
+          !usedMeanings.has(word.meaning)
+        ) {
+          uniqueWords.push(word);
+          usedNames.add(word.name);
+          usedMeanings.add(word.meaning);
+        }
+      });
+
+      if (uniqueWords.length < QUESTION_COUNT) {
+        alert("출제 가능한 단어가 부족해요.");
+        return;
+      }
+
+      questions = shuffle(uniqueWords)
+        .slice(0, QUESTION_COUNT);
+
+      questionIndex = 0;
+      score = 0;
+      wrongCount = 0;
+
+      startScreen.classList.add("hidden");
+      resultScreen.classList.add("hidden");
+      quizScreen.classList.remove("hidden");
+
+      showQuestion();
+    }
+
+    // ==========================================
+    // 3. 퀴즈 문제 출력
+    // ==========================================
+    function showQuestion() {
+      answered = false;
+
+      const word = questions[questionIndex];
+
+      questionNumber.textContent =
+        (questionIndex + 1) +
+        " / " + QUESTION_COUNT;
+
+      scoreDisplay.textContent = score + "점";
+
+      progressFill.style.width =
+        ((questionIndex + 1) / QUESTION_COUNT * 100) +
+        "%";
+
+      questionWord.textContent = word.name;
+
+      options.innerHTML = "";
+
+      feedback.classList.add("hidden");
+      nextButton.classList.add("hidden");
+
+      // 정답과 겹치지 않는 오답 후보
+      const wrongAnswers = shuffle(
+        [...new Set(
+          allWords
+            .map(item => item.meaning)
+            .filter(meaning => meaning !== word.meaning)
+        )]
+      ).slice(0, 3);
+
+      // 정답 1개 + 오답 3개
+      const answers = shuffle([
+        word.meaning,
+        ...wrongAnswers
+      ]);
+
+      answers.forEach(function(answer, index) {
+        const button = document.createElement("button");
+
+        button.className = "option-button";
+        button.textContent =
+          (index + 1) + ". " + answer;
+
+        button.addEventListener("click", function() {
+          checkAnswer(answer);
+        });
+
+        options.appendChild(button);
+      });
+    }
+
+    // ==========================================
+    // 4. 정답 판정
+    // ==========================================
+    function checkAnswer(selectedAnswer) {
+      if (answered) return;
+
+      answered = true;
+
+      const word = questions[questionIndex];
+      const isCorrect =
+        selectedAnswer === word.meaning;
+
+      if (isCorrect) {
+        score += 10;
+
+        feedback.textContent =
+          "정답이에요! " +
+          word.name + "의 뜻은 " +
+          word.meaning + "이에요.";
+
+      } else {
+        wrongCount++;
+
+        feedback.textContent =
+          "아쉬워요! 정답은 '" +
+          word.meaning + "'이에요.";
+
+        saveWrongAnswer(word);
+      }
+
+      // 선택 결과 표시
+      const buttons = options.querySelectorAll("button");
+
+      buttons.forEach(function(button) {
+        const answer = button.textContent.substring(
+          button.textContent.indexOf(". ") + 2
+        );
+
+        button.disabled = true;
+
+        if (answer === word.meaning) {
+          button.classList.add("correct");
+        } else if (answer === selectedAnswer) {
+          button.classList.add("wrong");
+        }
+      });
+
+      scoreDisplay.textContent = score + "점";
+
+      feedback.classList.remove("hidden");
+      nextButton.classList.remove("hidden");
+
+      if (questionIndex === QUESTION_COUNT - 1) {
+        nextButton.textContent = "결과 확인하기";
+      } else {
+        nextButton.textContent = "다음 문제";
+      }
+    }
+
+    // ==========================================
+    // 5. 오답노트에 저장하기
+    // ==========================================
+    function saveWrongAnswer(word) {
+      try {
+        const saved = JSON.parse(
+          localStorage.getItem("jejuWrongAnswers") || "[]"
+        );
+
+        const wrongWords = Array.isArray(saved)
+          ? saved
+          : [];
+
+        // 같은 단어는 중복 저장하지 않기
+        const exists = wrongWords.some(function(item) {
+          return item.id === word.id;
+        });
+
+        if (!exists) {
+          wrongWords.push({
+            id: word.id,
+            name: word.name,
+            meaning: word.meaning
+          });
+
+          localStorage.setItem(
+            "jejuWrongAnswers",
+            JSON.stringify(wrongWords)
+          );
+        }
+      } catch (error) {
+        console.error("오답 저장 오류:", error);
+      }
+    }
+
+    // ==========================================
+    // 6. 다음 문제 이동
+    // ==========================================
+    function nextQuestion() {
+      questionIndex++;
+
+      if (questionIndex < QUESTION_COUNT) {
+        showQuestion();
+      } else {
+        showResult();
+      }
+    }
+
+    // ==========================================
+    // 7. 퀴즈 결과
+    // ==========================================
+    function showResult() {
+      quizScreen.classList.add("hidden");
+      resultScreen.classList.remove("hidden");
+
+      finalScore.textContent = score + "점";
+
+      let message = "";
+
+      if (score === 100) {
+        message = "완벽해요! 제주어 고수네요!";
+      } else if (score >= 70) {
+        message = "잘했어요! 조금만 더 공부해봐요.";
+      } else if (score >= 40) {
+        message = "좋아요! 다시 도전해보세요.";
+      } else {
+        message = "아직 낯설죠? 다시 공부해봐요.";
+      }
+
+      resultMessage.textContent = message;
+
+      resultDetail.textContent =
+        "정답 " + (QUESTION_COUNT - wrongCount) +
+        "개 / 오답 " + wrongCount +
+        "개 / 정답률 " +
+        Math.round(
+          (QUESTION_COUNT - wrongCount) /
+          QUESTION_COUNT * 100
+        ) + "%";
+    }
+
+    // ==========================================
+    // 8. 버튼 이벤트
+    // ==========================================
+    startButton.addEventListener("click", startQuiz);
+
+    nextButton.addEventListener("click", nextQuestion);
+
+    document.getElementById("retryButton")
+      .addEventListener("click", startQuiz);
+
+    // XML 데이터 먼저 불러오기
+    loadQuizData();
+  </script>
+
+</body>
+</html>
