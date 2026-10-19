@@ -1,1513 +1,1514 @@
+<?xml version='1.0' encoding='utf-8'?>
 <jejunetApi>
-<error>false</error>
-<result>SUCCESS</result>
-<resultCode>00</resultCode>
-<resultMsg>success</resultMsg>
-<list>
-<item>
-<seq>7570</seq>
-<type>DETI</type>
-<name>돗-거미</name>
-<siteName>돗거미</siteName>
-<index>IS03S</index>
-<contents>황금거미 </contents>
-<engContents>gold spider</engContents>
-<janContents>コガネグモ</janContents>
-<chiContents>金&#40644;逍&#36965;蛛</chiContents>
-<sound>D_A_25470.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7570</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7569</seq>
-<type>DEIN</type>
-<name>할망</name>
-<siteName>할망</siteName>
-<index>IS14S</index>
-<contents>할머니</contents>
-<engContents>Grandmother</engContents>
-<janContents>お婆さん</janContents>
-<chiContents>&#22902;&#22902;</chiContents>
-<sound>D_B_1518.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7569</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7568</seq>
-<type>DEIN</type>
-<name>하르방</name>
-<siteName>하르방</siteName>
-<index>IS14S</index>
-<contents>할아버지</contents>
-<engContents>Grandfather</engContents>
-<janContents>お爺さん</janContents>
-<chiContents>&#29239;&#29239;</chiContents>
-<sound>D_B_15170.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7568</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7567</seq>
-<type>DE04</type>
-<name>&#62273;싱</name>
-<siteName>&#62273;싱</siteName>
-<index>IS10S</index>
-<contents>정말. 의심할 때 행여나 될까 하고 추측하는 뜻을 나타내는 말</contents>
-<engContents>A word to express suspicion</engContents>
-<janContents>本&#24403;に、疑う時まさかと思って推測する意を現わす言葉</janContents>
-<chiContents>&#30495;的，&#24576;疑&#26102;，表示推&#27979;&#20852;&#35768;能行之意的&#35789;</chiContents>
-<sound>D_B_1515.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7567</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7566</seq>
-<type>DE04</type>
-<name>&#62273;마</name>
-<siteName>&#62273;마</siteName>
-<index>IS10S</index>
-<contents>&#62273;마-고라=&#62273;마-&#57767;라. 아니원</contents>
-<engContents>On world</engContents>
-<janContents>いやまったく</janContents>
-<chiContents>&#22003;</chiContents>
-<sound>D_B_1514.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7566</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7565</seq>
-<type>DE05</type>
-<name>고라</name>
-<siteName>고라</siteName>
-<index>IS01S</index>
-<contents>&#57767;라=&#58250;려. 더러</contents>
-<engContents>Sometimes</engContents>
-<janContents>いくらか、若干</janContents>
-<chiContents>&#35753;，使</chiContents>
-<sound>D_B_1513.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7565</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7564</seq>
-<type>DE04</type>
-<name>옵서</name>
-<siteName>옵서</siteName>
-<index>IS08S</index>
-<contents>오다</contents>
-<engContents>Come</engContents>
-<janContents>&#26469;る</janContents>
-<chiContents>&#26469;</chiContents>
-<sound>D_B_1512.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7564</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7563</seq>
-<type>DE04</type>
-<name>예게</name>
-<siteName>예게</siteName>
-<index>IS08S</index>
-<contents>예예. '예'를 강조하는 경우</contents>
-<engContents>A word to emphasize 'yes'</engContents>
-<janContents>はいはい、「はい」を&#24375;調する場合</janContents>
-<chiContents>是是，强&#35843;“是”的情&#20917;</chiContents>
-<sound>D_B_1511.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7563</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7562</seq>
-<type>DE04</type>
-<name>에게</name>
-<siteName>에게</siteName>
-<index>IS08S</index>
-<contents>이끼. 생각하는 바와 달랐을 때 이거 머냐는 뜻을 나타내는 말</contents>
-<engContents>A word to express disappointment</engContents>
-<janContents>思った通りでなかった時、これは何だという意を現わす言葉</janContents>
-<chiContents>&#19982;所想的不同&#26102;，表示&#36825;是什&#20040;之意的&#35789;</chiContents>
-<sound>D_B_1510.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7562</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7561</seq>
-<type>DE04</type>
-<name>어이</name>
-<siteName>어이</siteName>
-<index>IS08S</index>
-<contents> 여보게, 여봐라</contents>
-<engContents>Hey there</engContents>
-<janContents>おい、ちょっと</janContents>
-<chiContents>&#21890;，&#26469;人&#21834;</chiContents>
-<sound>D_B_1509.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7561</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7560</seq>
-<type>DE04</type>
-<name>양²</name>
-<siteName>양²</siteName>
-<index>IS08S</index>
-<contents>예. 윗 사람에게 묻는 경우</contents>
-<engContents>Yes (When asked by a senior)</engContents>
-<janContents>はい、目上の人に聞く場合</janContents>
-<chiContents>是&#21527;向大人&#35759;&#38382;&#26102;</chiContents>
-<sound>D_B_1508.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7560</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7559</seq>
-<type>DE04</type>
-<name>애개</name>
-<siteName>애개</siteName>
-<index>IS08S</index>
-<contents>모자라다고 생각할 때 나오는 소리</contents>
-<engContents>How poor</engContents>
-<janContents>足りないと思う時出る&#22768;</janContents>
-<chiContents>&#35273;得不&#22815;&#26102;&#35828;的&#35805;</chiContents>
-<sound>D_B_1507.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7559</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7558</seq>
-<type>DE04</type>
-<name>아이구기여</name>
-<siteName>아이구기여</siteName>
-<index>IS08S</index>
-<contents>아이고 아프다'의 뜻을 나타내는 말</contents>
-<engContents>Ouch</engContents>
-<janContents>「あぁ、痛い」の意を現わす言葉</janContents>
-<chiContents>表示“&#21710;&#21727;，疼”之意的&#35789;</chiContents>
-<sound>D_B_1506.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7558</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7557</seq>
-<type>DE04</type>
-<name>무사</name>
-<siteName>무사</siteName>
-<index>IS05S</index>
-<contents>왜</contents>
-<engContents>Why</engContents>
-<janContents>なぜ</janContents>
-<chiContents>&#20026;什&#20040;</chiContents>
-<sound>D_B_1505.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7557</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7556</seq>
-<type>DE04</type>
-<name>메</name>
-<siteName>메</siteName>
-<index>IS05S</index>
-<contents>= 메께라. 별소릴 다</contents>
-<engContents>Nonsense</engContents>
-<janContents>とんでもない</janContents>
-<chiContents>客&#27668;，&#21738;里</chiContents>
-<sound>D_B_1504.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7556</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7555</seq>
-<type>DE04</type>
-<name>날봅서</name>
-<siteName>날봅서</siteName>
-<index>IS02S</index>
-<contents>여보시오</contents>
-<engContents>Hey</engContents>
-<janContents>もしもし</janContents>
-<chiContents>&#21890;</chiContents>
-<sound>D_B_1503.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7555</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7554</seq>
-<type>DE04</type>
-<name>기여</name>
-<siteName>기여</siteName>
-<index>IS01S</index>
-<contents> 오냐, 그래</contents>
-<engContents>OK</engContents>
-<janContents>そう</janContents>
-<chiContents>&#21999;，是&#21527;</chiContents>
-<sound>D_B_1502.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7554</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7553</seq>
-<type>DE04</type>
-<name>그거무사</name>
-<siteName>그거무사</siteName>
-<index>IS01S</index>
-<contents>아뿔싸</contents>
-<engContents>Alas</engContents>
-<janContents>しまった</janContents>
-<chiContents>糟&#31957;，我的天</chiContents>
-<sound>D_B_1501.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7553</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7552</seq>
-<type>DE04</type>
-<name>겔쎄</name>
-<siteName>겔쎄</siteName>
-<index>IS01S</index>
-<contents>글쎄</contents>
-<engContents>Well</engContents>
-<janContents>そうね、さあ</janContents>
-<chiContents>是&#21834;，&#38590;&#35828;</chiContents>
-<sound>D_B_1500.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7552</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7551</seq>
-<type>DE04</type>
-<name>게메</name>
-<siteName>게메</siteName>
-<index>IS01S</index>
-<contents>게메서란=게메선. 그러기에. 과연 그렇다는 뜻을 나타내는 말</contents>
-<engContents>Therefore</engContents>
-<janContents>それで、なるほどそうだという意を現わす言葉</janContents>
-<chiContents>&#38590;怪，表示果然如此之意的&#35789;</chiContents>
-<sound>D_B_1499.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7551</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7550</seq>
-<type>DE04</type>
-<name>게¹</name>
-<siteName>게¹</siteName>
-<index>IS01S</index>
-<contents>겐. 그래. 해라 할 자리에 그렇다는 뜻을 나타내는 말</contents>
-<engContents>That's right</engContents>
-<janContents>そう</janContents>
-<chiContents>是&#21527;是&#21834;</chiContents>
-<sound>D_B_1498.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7550</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7549</seq>
-<type>DEIN</type>
-<name>큰말젯 상제</name>
-<siteName>큰말젯 상제</siteName>
-<index>IS11S</index>
-<contents>다섯 중 셋째 상제</contents>
-<engContents>The third mourner among five</engContents>
-<janContents>五つのうち三番目の喪主</janContents>
-<chiContents>五兄弟（姐妹）中老三孝家</chiContents>
-<sound>D_B_1497.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7549</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7548</seq>
-<type>DEIN</type>
-<name>큰말젯 사위</name>
-<siteName>큰말젯 사위</siteName>
-<index>IS11S</index>
-<contents>다섯 중 셋째 사위</contents>
-<engContents>The third son-in-law among five</engContents>
-<janContents>五人のうち三番目の壻</janContents>
-<chiContents>五姐妹中三女&#23167;</chiContents>
-<sound>D_B_1496.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7548</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7547</seq>
-<type>DE03</type>
-<name>큰말젯</name>
-<siteName>큰말젯</siteName>
-<index>IS11S</index>
-<contents>다섯 중 셋째의 인륜 관계</contents>
-<engContents>The third among five</engContents>
-<janContents>五人のうち三番目</janContents>
-<chiContents>五兄弟（姐妹）中老三</chiContents>
-<sound>D_B_1495.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7547</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7546</seq>
-<type>DEIN</type>
-<name>족은말젯 상제</name>
-<siteName>족은말젯 상제</siteName>
-<index>IS09S</index>
-<contents>다섯 중 넷째 상제</contents>
-<engContents>The forth mourner among five</engContents>
-<janContents>五つのうち四番目の喪主</janContents>
-<chiContents>五兄弟（姐妹）中老四孝家</chiContents>
-<sound>D_B_1494.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7546</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7545</seq>
-<type>DEIN</type>
-<name>족은말젯 사위</name>
-<siteName>족은말젯 사위</siteName>
-<index>IS09S</index>
-<contents>다섯 중 넷째 사위</contents>
-<engContents>The fourth son-in-law among five</engContents>
-<janContents>五人のうち四番目の壻</janContents>
-<chiContents>五姐妹中四女&#23167;</chiContents>
-<sound>D_B_1493.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7545</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7544</seq>
-<type>DE03</type>
-<name>족은말젯</name>
-<siteName>족은말젯</siteName>
-<index>IS09S</index>
-<contents>다섯 중 넷째의 인륜 관계</contents>
-<engContents>The fourth among five</engContents>
-<janContents>五人のうち四番目</janContents>
-<chiContents>五兄弟（姐妹）中老四</chiContents>
-<sound>D_B_1492.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7544</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7543</seq>
-<type>DE03</type>
-<name>셍 거</name>
-<siteName>셍 거</siteName>
-<index>IS07S</index>
-<contents>날 것</contents>
-<engContents>Raw food</engContents>
-<janContents>生物</janContents>
-<chiContents>生的</chiContents>
-<sound>D_B_1491.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7543</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7542</seq>
-<type>DE03</type>
-<name>셋 &#58344;</name>
-<siteName>셋 &#58344;</siteName>
-<index>IS07S</index>
-<contents>가운데 딸</contents>
-<engContents>The daughter in the middle</engContents>
-<janContents>&#30495;ん中の娘</janContents>
-<chiContents>排行中&#38388;的女&#20799;</chiContents>
-<sound>D_B_1490.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7542</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7541</seq>
-<type>DE03</type>
-<name>셋 아방</name>
-<siteName>셋 아방</siteName>
-<index>IS07S</index>
-<contents>중부</contents>
-<engContents>The central part</engContents>
-<janContents>ニ番目以下のおじ</janContents>
-<chiContents>仲父</chiContents>
-<sound>D_B_1489.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7541</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7540</seq>
-<type>DE03</type>
-<name>셋 성</name>
-<siteName>셋 성</siteName>
-<index>IS07S</index>
-<contents>가운데 형</contents>
-<engContents>Elder brother in the middle</engContents>
-<janContents>&#30495;ん中の兄</janContents>
-<chiContents>排行中&#38388;的哥哥</chiContents>
-<sound>D_B_1488.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7540</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7539</seq>
-<type>DE03</type>
-<name>셋 동셍</name>
-<siteName>셋 동셍</siteName>
-<index>IS07S</index>
-<contents>가운데 동생</contents>
-<engContents>Younger brother in the middle</engContents>
-<janContents>&#30495;ん中の弟(妹)</janContents>
-<chiContents>排行中&#38388;的弟弟（妹妹）</chiContents>
-<sound>D_B_1487.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7539</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7538</seq>
-<type>DE03</type>
-<name>셋 누이</name>
-<siteName>셋 누이</siteName>
-<index>IS07S</index>
-<contents>가운데 누님</contents>
-<engContents>The middle sister</engContents>
-<janContents>&#30495;ん中の姉</janContents>
-<chiContents>排行中&#38388;的姐姐</chiContents>
-<sound>D_B_1486.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7538</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7537</seq>
-<type>DE03</type>
-<name>셋 놈</name>
-<siteName>셋 놈</siteName>
-<index>IS07S</index>
-<contents>가운데 놈</contents>
-<engContents>The middle son</engContents>
-<janContents>&#30495;中のやつ</janContents>
-<chiContents>中&#38388;的家&#20249;</chiContents>
-<sound>D_B_1485.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7537</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7536</seq>
-<type>DE03</type>
-<name>셋 년</name>
-<siteName>셋 년</siteName>
-<index>IS07S</index>
-<contents>가운데 딸</contents>
-<engContents> The middle daughter</engContents>
-<janContents> 間に&#25375;まれた娘</janContents>
-<chiContents> 排行中&#38388;的女&#20799;</chiContents>
-<sound>D_B_14840.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7536</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7535</seq>
-<type>DE03</type>
-<name>셋</name>
-<siteName>셋</siteName>
-<index>IS07S</index>
-<contents> 샛, 가운데</contents>
-<engContents>Center</engContents>
-<janContents>&#30495;ん中</janContents>
-<chiContents>三，中&#38388;</chiContents>
-<sound>D_B_1483.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7535</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7534</seq>
-<type>DE03</type>
-<name>세양</name>
-<siteName>세양</siteName>
-<index>IS07S</index>
-<contents> 수양, &#49653; </contents>
-<engContents> Fostering</engContents>
-<janContents> 修養</janContents>
-<chiContents> 收&#20859;</chiContents>
-<sound>D_B_1482.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7534</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7533</seq>
-<type>DE03</type>
-<name>새 &#60376;</name>
-<siteName>새 &#60376;</siteName>
-<index>IS07S</index>
-<contents>햇 쌀</contents>
-<engContents> New rice</engContents>
-<janContents> 新米</janContents>
-<chiContents> 新米</chiContents>
-<sound>D_B_1481.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7533</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7532</seq>
-<type>DE03</type>
-<name>새 서방</name>
-<siteName>새 서방</siteName>
-<index>IS07S</index>
-<contents>신랑</contents>
-<engContents> Bridegroom</engContents>
-<janContents> 新&#37070;</janContents>
-<chiContents> 新&#37070;</chiContents>
-<sound>D_B_1480.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7532</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7531</seq>
-<type>DE03</type>
-<name>새 곡석</name>
-<siteName>새 곡석</siteName>
-<index>IS07S</index>
-<contents>햇 곡식</contents>
-<engContents> A new crop of grain</engContents>
-<janContents> 新穀</janContents>
-<chiContents> 新粮食</chiContents>
-<sound>D_B_1479.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7531</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7530</seq>
-<type>DE03</type>
-<name>새 각시</name>
-<siteName>새 각시</siteName>
-<index>IS07S</index>
-<contents>신부</contents>
-<engContents> Bride</engContents>
-<janContents> 花嫁</janContents>
-<chiContents> 新娘</chiContents>
-<sound>D_B_1478.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7530</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7529</seq>
-<type>DE03</type>
-<name>새</name>
-<siteName>새</siteName>
-<index>IS07S</index>
-<contents>햇</contents>
-<engContents> New</engContents>
-<janContents> 新</janContents>
-<chiContents> 新</chiContents>
-<sound>D_B_1477.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7529</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7528</seq>
-<type>DE03</type>
-<name>무신</name>
-<siteName>무신</siteName>
-<index>IS05S</index>
-<contents>뭔. 무슨</contents>
-<engContents> What</engContents>
-<janContents> 何、どんな</janContents>
-<chiContents> 什&#20040;</chiContents>
-<sound>D_B_1476.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7528</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7527</seq>
-<type>DE03</type>
-<name>멧</name>
-<siteName>멧</siteName>
-<index>IS05S</index>
-<contents>몇</contents>
-<engContents> How many, which</engContents>
-<janContents> 何、幾</janContents>
-<chiContents> &#20960;</chiContents>
-<sound>D_B_1475.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7527</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7526</seq>
-<type>DEIN</type>
-<name>말젯 &#58344;</name>
-<siteName>말젯 &#58344;</siteName>
-<index>IS05S</index>
-<contents>셋째 딸</contents>
-<engContents> The third daughter's</engContents>
-<janContents> 三番目の娘</janContents>
-<chiContents> 第三&#20010;女&#20799;</chiContents>
-<sound>D_B_1474.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7526</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7525</seq>
-<type>DE03</type>
-<name>말젯 집</name>
-<siteName>말젯 집</siteName>
-<index>IS05S</index>
-<contents>셋째 집</contents>
-<engContents> The third son's</engContents>
-<janContents> 三番目の家</janContents>
-<chiContents> 老三的家</chiContents>
-<sound>D_B_1473.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7525</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7524</seq>
-<type>DEIN</type>
-<name>말젯 아&#58255;</name>
-<siteName>말젯 아&#58255;</siteName>
-<index>IS05S</index>
-<contents>셋째 아들</contents>
-<engContents> The third son</engContents>
-<janContents> 三番目の息子</janContents>
-<chiContents> 第三&#20010;&#20799;子</chiContents>
-<sound>D_B_1472.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7524</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7523</seq>
-<type>DEIN</type>
-<name>말젯삼춘</name>
-<siteName>말젯삼춘</siteName>
-<index>IS05S</index>
-<contents>셋째 삼촌</contents>
-<engContents> The third uncle</engContents>
-<janContents> 三番目のおじ</janContents>
-<chiContents> 三叔</chiContents>
-<sound>D_B_1471.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7523</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7522</seq>
-<type>DE03</type>
-<name>말젯</name>
-<siteName>말젯</siteName>
-<index>IS05S</index>
-<contents>넷 중 셋째의 인류 관계</contents>
-<engContents>The third among four</engContents>
-<janContents>四人の中で三番目の人倫&#38306;係</janContents>
-<chiContents>四兄弟（姐妹）中老三的人&#38469;&#20851;系</chiContents>
-<sound>D_B_1470.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7522</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7521</seq>
-<type>DE03</type>
-<name>막동이</name>
-<siteName>막동이</siteName>
-<index>IS05S</index>
-<contents>막내동이</contents>
-<engContents> The youngest</engContents>
-<janContents> 末っ子</janContents>
-<chiContents> 老小</chiContents>
-<sound>D_B_1469.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7521</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7520</seq>
-<type>DE03</type>
-<name>막 일</name>
-<siteName>막 일</siteName>
-<index>IS05S</index>
-<contents>마지막 일</contents>
-<engContents> The last thing</engContents>
-<janContents> 最後の仕事</janContents>
-<chiContents> 最后事情</chiContents>
-<sound>D_B_1468.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7520</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7519</seq>
-<type>DE03</type>
-<name>다슴</name>
-<siteName>다슴</siteName>
-<index>IS03S</index>
-<contents>다심. 어붓. 의리로 맺어진 인륜 관계</contents>
-<engContents> Relationship based on righteousness</engContents>
-<janContents> 義理で結ばれた人倫&#38306;係</janContents>
-<chiContents> 多心，&#38752;&#20041;&#27668;形成的人&#20262;&#20851;系</chiContents>
-<sound>D_B_1467.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7519</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7518</seq>
-<type>DE03</type>
-<name>&#57992; 땅</name>
-<siteName>&#57992; 땅</siteName>
-<index>IS02S</index>
-<contents>맨 땅</contents>
-<engContents> Bare ground</engContents>
-<janContents> なにもない地面</janContents>
-<chiContents> 地面</chiContents>
-<sound>D_B_1466.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7518</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7517</seq>
-<type>DE03</type>
-<name>&#57992; 거</name>
-<siteName>&#57992; 거</siteName>
-<index>IS02S</index>
-<contents>날 것</contents>
-<engContents> Raw</engContents>
-<janContents> 生物</janContents>
-<chiContents> 生的</chiContents>
-<sound>D_B_1465.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7517</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7516</seq>
-<type>DE03</type>
-<name>&#57992;</name>
-<siteName>&#57992;</siteName>
-<index>IS02S</index>
-<contents>셍. 날</contents>
-<engContents> Uncooked</engContents>
-<janContents> 煮ない</janContents>
-<chiContents> 未熟的</chiContents>
-<sound>D_B_1464.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7516</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7515</seq>
-<type>DE03</type>
-<name>&#57987;단 손</name>
-<siteName>&#57987;단 손</siteName>
-<index>IS02S</index>
-<contents>오른 손</contents>
-<engContents> Right hand</engContents>
-<janContents> 右手</janContents>
-<chiContents> 右手</chiContents>
-<sound>D_B_1463.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7515</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7514</seq>
-<type>DE03</type>
-<name>&#57987;단</name>
-<siteName>&#57987;단</siteName>
-<index>IS02S</index>
-<contents>오른쪽</contents>
-<engContents> To the right</engContents>
-<janContents> 右側</janContents>
-<chiContents> 右&#20391;</chiContents>
-<sound>D_B_1462.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7514</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7513</seq>
-<type>DE03</type>
-<name>늬</name>
-<siteName>늬</siteName>
-<index>IS02S</index>
-<contents>네</contents>
-<engContents> You</engContents>
-<janContents> あなた</janContents>
-<chiContents> &#24744;</chiContents>
-<sound>D_B_1461.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7513</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7512</seq>
-<type>DE03</type>
-<name>곤 죽</name>
-<siteName>곤 죽</siteName>
-<index>IS01S</index>
-<contents>쌀 죽</contents>
-<engContents> Rice porridge</engContents>
-<janContents> 米がゆ</janContents>
-<chiContents> 米粥</chiContents>
-<sound>D_B_1460.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7512</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7511</seq>
-<type>DE02</type>
-<name>&#62793;상</name>
-<siteName>&#62793;상</siteName>
-<index>IS14S</index>
-<contents>항상</contents>
-<engContents> Always</engContents>
-<janContents> 常に</janContents>
-<chiContents> 常常</chiContents>
-<sound>D_B_1459.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7511</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7510</seq>
-<type>DE02</type>
-<name>&#62789;치</name>
-<siteName>&#62789;치</siteName>
-<index>IS14S</index>
-<contents>①함께 ②애당초</contents>
-<engContents> Together, from the beginning</engContents>
-<janContents> ①一&#32210;に、②&#24403;初</janContents>
-<chiContents> ①一起，②&#24403;初</chiContents>
-<sound>D_B_1458.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7510</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7509</seq>
-<type>DE02</type>
-<name>&#62789;부로</name>
-<siteName>&#62789;부로</siteName>
-<index>IS14S</index>
-<contents>함부로</contents>
-<engContents> At random</engContents>
-<janContents> むやみに</janContents>
-<chiContents> &#38543;便</chiContents>
-<sound>D_B_1457.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7509</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7508</seq>
-<type>DE02</type>
-<name>&#62778;참</name>
-<siteName>&#62778;참</siteName>
-<index>IS14S</index>
-<contents>한참</contents>
-<engContents> For a while</engContents>
-<janContents> しばらく</janContents>
-<chiContents> 好一&#20250;&#20799;</chiContents>
-<sound>D_B_1456.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7508</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7507</seq>
-<type>DE02</type>
-<name>&#62778;저</name>
-<siteName>&#62778;저</siteName>
-<index>IS14S</index>
-<contents>어서</contents>
-<engContents> Quickly</engContents>
-<janContents> はやく</janContents>
-<chiContents> &#36214;快</chiContents>
-<sound>D_B_1455.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7507</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7506</seq>
-<type>DE02</type>
-<name>&#62778;디</name>
-<siteName>&#62778;디</siteName>
-<index>IS14S</index>
-<contents> 한데, 함께</contents>
-<engContents> Together</engContents>
-<janContents> 一所、一&#32210;に</janContents>
-<chiContents> 一起</chiContents>
-<sound>D_B_1454.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7506</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7505</seq>
-<type>DE02</type>
-<name>히지부지</name>
-<siteName>히지부지</siteName>
-<index>IS14S</index>
-<contents>흐지부지</contents>
-<engContents> Vaguely</engContents>
-<janContents> うやむや</janContents>
-<chiContents> 稀里糊&#28034;</chiContents>
-<sound>D_B_1453.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7505</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7504</seq>
-<type>DE02</type>
-<name>히어뜩이</name>
-<siteName>히어뜩이</siteName>
-<index>IS14S</index>
-<contents>정신이 어지럽게</contents>
-<engContents> Confusingly</engContents>
-<janContents> 精神が&#20081;れているように</janContents>
-<chiContents> &#22836;&#26197;，&#21457;&#26197;</chiContents>
-<sound>D_B_1452.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7504</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7503</seq>
-<type>DE02</type>
-<name>히뜩²</name>
-<siteName>히뜩²</siteName>
-<index>IS14S</index>
-<contents>쓰러지는 꼴</contents>
-<engContents> A way of collapsing</engContents>
-<janContents> 倒れる姿</janContents>
-<chiContents> &#25684;倒的&#26679;子</chiContents>
-<sound>D_B_1451.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7503</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7502</seq>
-<type>DE02</type>
-<name>히뜨거니</name>
-<siteName>히뜨거니</siteName>
-<index>IS14S</index>
-<contents>히뜩. 새벽 하늘이 부옇게 밝아가는 꼴</contents>
-<engContents> Beginning to glow light</engContents>
-<janContents> 夜明けに空がうっすら明るくなる&#27096;子</janContents>
-<chiContents> 早晨天灰蒙蒙亮的&#26679;子</chiContents>
-<sound>D_B_1450.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7502</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7501</seq>
-<type>DE02</type>
-<name>흥창망창</name>
-<siteName>흥창망창</siteName>
-<index>IS14S</index>
-<contents>흥청망청</contents>
-<engContents> With elation</engContents>
-<janContents> ふんだんに</janContents>
-<chiContents> &#31351;奢&#26497;侈</chiContents>
-<sound>D_B_1449.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7501</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7500</seq>
-<type>DE03</type>
-<name>곤 &#60376;</name>
-<siteName>곤 &#60376;</siteName>
-<index>IS01S</index>
-<contents>쌀</contents>
-<engContents> Rice</engContents>
-<janContents> 米</janContents>
-<chiContents> 大米</chiContents>
-<sound>D_B_1448.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7500</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7499</seq>
-<type>DE03</type>
-<name>곤 밥</name>
-<siteName>곤 밥</siteName>
-<index>IS01S</index>
-<contents> 흰 밥, 쌀 밥</contents>
-<engContents> White rice</engContents>
-<janContents> 白ご飯、米飯</janContents>
-<chiContents> 白米&#39277;</chiContents>
-<sound>D_B_1447.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7499</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7498</seq>
-<type>DE03</type>
-<name>곤</name>
-<siteName>곤</siteName>
-<index>IS01S</index>
-<contents>고운</contents>
-<engContents> Fine</engContents>
-<janContents> きれいな</janContents>
-<chiContents> 美的</chiContents>
-<sound>D_B_1446.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7498</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7497</seq>
-<type>DE02</type>
-<name>흔들만들</name>
-<siteName>흔들만들</siteName>
-<index>IS14S</index>
-<contents>곤드래만드래.</contents>
-<engContents> Staggering</engContents>
-<janContents> ぐでんぐでん、へべれげ</janContents>
-<chiContents> 醉&#37306;&#37306;</chiContents>
-<sound>D_B_1445.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7497</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7496</seq>
-<type>DE02</type>
-<name>하영</name>
-<siteName>하영</siteName>
-<index>IS14S</index>
-<contents>많이.</contents>
-<engContents> Much</engContents>
-<janContents> 多く</janContents>
-<chiContents> &#24456;多</chiContents>
-<sound>D_B_1444.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7496</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7495</seq>
-<type>DE02</type>
-<name>펜두룽이</name>
-<siteName>펜두룽이</siteName>
-<index>IS13S</index>
-<contents> 펜주룽이=펜드렁이&lt;핀두룽이. 시치미 떼고 그대로 있는 꼴, 겁내지 않고 태연한 꼴.</contents>
-<engContents> Daringly</engContents>
-<janContents> 恐れないで平&#27671;な&#27096;子</janContents>
-<chiContents> 毫无&#32966;怯，泰然自若的&#26679;子</chiContents>
-<sound>D_B_1443.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7495</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7494</seq>
-<type>DE02</type>
-<name>페삭페삭</name>
-<siteName>페삭페삭</siteName>
-<index>IS13S</index>
-<contents>바삭바삭.</contents>
-<engContents> With a rustle</engContents>
-<janContents> サクサク</janContents>
-<chiContents> 脆</chiContents>
-<sound>D_B_1442.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7494</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7493</seq>
-<type>DE02</type>
-<name>페삭</name>
-<siteName>페삭</siteName>
-<index>IS13S</index>
-<contents>바삭.</contents>
-<engContents> With a crunch</engContents>
-<janContents> かさっと</janContents>
-<chiContents> 脆生</chiContents>
-<sound>D_B_1441.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7493</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7492</seq>
-<type>DE02</type>
-<name>팰롱팰롱</name>
-<siteName>팰롱팰롱</siteName>
-<index>IS13S</index>
-<contents>펠롱펠롱. 빤짝빤짝.</contents>
-<engContents> Brilliantly</engContents>
-<janContents> ピカピカ</janContents>
-<chiContents> 亮&#38378;&#38378;</chiContents>
-<sound>D_B_1440.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7492</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7491</seq>
-<type>DE02</type>
-<name>&#62277;라리</name>
-<siteName>&#62277;라리</siteName>
-<index>IS10S</index>
-<contents>차라리.</contents>
-<engContents> Rather</engContents>
-<janContents> いっそ</janContents>
-<chiContents> 索性</chiContents>
-<sound>D_B_1439.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7491</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7490</seq>
-<type>DE02</type>
-<name>천성</name>
-<siteName>천성</siteName>
-<index>IS10S</index>
-<contents>언제나.</contents>
-<engContents>Always</engContents>
-<janContents> いつも</janContents>
-<chiContents> &#24635;是</chiContents>
-<sound>D_B_1438.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7490</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7489</seq>
-<type>DE02</type>
-<name>&#61961;&#61961;이</name>
-<siteName>&#61961;&#61961;이</siteName>
-<index>IS09S</index>
-<contents>매우 자세히.</contents>
-<engContents> Very much precisely</engContents>
-<janContents> 非常に詳しく</janContents>
-<chiContents> &#24456;仔&#32454;地</chiContents>
-<sound>D_B_1437.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7489</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7488</seq>
-<type>DE02</type>
-<name>&#61956;질이</name>
-<siteName>&#61956;질이</siteName>
-<index>IS09S</index>
-<contents> 잘게, 가늘게.</contents>
-<engContents> Minutely</engContents>
-<janContents> 細く</janContents>
-<chiContents> &#32454;&#32454;地</chiContents>
-<sound>D_B_1436.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7488</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7487</seq>
-<type>DE02</type>
-<name>&#61948;주</name>
-<siteName>&#61948;주</siteName>
-<index>IS09S</index>
-<contents>자주.</contents>
-<engContents> Often</engContents>
-<janContents> しばしば</janContents>
-<chiContents> &#32463;常</chiContents>
-<sound>D_B_1435.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7487</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7486</seq>
-<type>DE02</type>
-<name>&#61948;세히</name>
-<siteName>&#61948;세히</siteName>
-<index>IS09S</index>
-<contents> &#61956;상히. 꼼꼼히, 자세히.</contents>
-<engContents> In detail</engContents>
-<janContents> き帳面に、詳らかに</janContents>
-<chiContents> 仔&#32454;地</chiContents>
-<sound>D_B_1434.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7486</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7485</seq>
-<type>DE02</type>
-<name>&#61948;못</name>
-<siteName>&#61948;못</siteName>
-<index>IS09S</index>
-<contents>자못.</contents>
-<engContents> Greatly</engContents>
-<janContents> いかにも</janContents>
-<chiContents> &#24456;，&#39047;&#20026;</chiContents>
-<sound>D_B_1433.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7485</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7484</seq>
-<type>DE02</type>
-<name>&#61948;근&#61948;근</name>
-<siteName>&#61948;근&#61948;근</siteName>
-<index>IS09S</index>
-<contents> &#62273;근&#62273;근. 차곡차곡, 차근차근.</contents>
-<engContents> Steadily</engContents>
-<janContents> きちんきちんと、じゅんじゅんに</janContents>
-<chiContents> 有&#26465;不紊</chiContents>
-<sound>D_B_1432.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7484</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7483</seq>
-<type>DE02</type>
-<name>짓</name>
-<siteName>짓</siteName>
-<index>IS09S</index>
-<contents>마구.</contents>
-<engContents> Carelessly</engContents>
-<janContents> やたらに</janContents>
-<chiContents> 胡&#20081;，&#38543;便</chiContents>
-<sound>D_B_1431.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7483</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7482</seq>
-<type>DE02</type>
-<name>진직</name>
-<siteName>진직</siteName>
-<index>IS09S</index>
-<contents>진작.</contents>
-<engContents> Already</engContents>
-<janContents> すぐそのとき、前もって</janContents>
-<chiContents> 早一点</chiContents>
-<sound>D_B_1430.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7482</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7481</seq>
-<type>DE02</type>
-<name>죽게</name>
-<siteName>죽게</siteName>
-<index>IS09S</index>
-<contents>죽도록.</contents>
-<engContents> To death</engContents>
-<janContents> 死ぬほどに</janContents>
-<chiContents> &#25340;命地</chiContents>
-<sound>D_B_1429.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7481</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7480</seq>
-<type>DE02</type>
-<name>졸바로</name>
-<siteName>졸바로</siteName>
-<index>IS09S</index>
-<contents>올바르게</contents>
-<engContents> In a right way</engContents>
-<janContents> 正しく</janContents>
-<chiContents> 正直的</chiContents>
-<sound>D_B_1428.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7480</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7479</seq>
-<type>DE02</type>
-<name>족족</name>
-<siteName>족족</siteName>
-<index>IS09S</index>
-<contents> 조끔조끔, 조금씩.</contents>
-<engContents> Bit by bit</engContents>
-<janContents> 少しずつ</janContents>
-<chiContents> 一点一点</chiContents>
-<sound>D_B_1427.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7479</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7478</seq>
-<type>DE02</type>
-<name>조고마니</name>
-<siteName>조고마니</siteName>
-<index>IS09S</index>
-<contents>자그마니.</contents>
-<engContents>Tiny</engContents>
-<janContents> ちっぽけな</janContents>
-<chiContents> 少少地</chiContents>
-<sound>D_B_1426.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7478</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7477</seq>
-<type>DE02</type>
-<name>제나</name>
-<siteName>제나</siteName>
-<index>IS09S</index>
-<contents>제발.</contents>
-<engContents> Please</engContents>
-<janContents> なにとぞ、どうか</janContents>
-<chiContents> 千万</chiContents>
-<sound>D_B_1425.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7477</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7476</seq>
-<type>DE02</type>
-<name>잇당</name>
-<siteName>잇당</siteName>
-<index>IS08S</index>
-<contents> 있다가, 이따금.</contents>
-<engContents> On and off</engContents>
-<janContents> しばらくして、ときおり</janContents>
-<chiContents> &#36807;一&#20250;&#20799;，有&#26102;</chiContents>
-<sound>D_B_1424.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7476</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7475</seq>
-<type>DE02</type>
-<name>이&#62273;록</name>
-<siteName>이&#62273;록</siteName>
-<index>IS08S</index>
-<contents>이처럼.</contents>
-<engContents> Like this</engContents>
-<janContents> このように</janContents>
-<chiContents> 就&#36825;&#26679;</chiContents>
-<sound>D_B_1423.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7475</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7474</seq>
-<type>DE02</type>
-<name>이칙</name>
-<siteName>이칙</siteName>
-<index>IS08S</index>
-<contents> 인칙, 일찍, 아까.</contents>
-<engContents> Just before</engContents>
-<janContents> 早く、先程</janContents>
-<chiContents> 早早地，&#21018;才</chiContents>
-<sound>D_B_1422.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7474</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7473</seq>
-<type>DE02</type>
-<name>이시커니</name>
-<siteName>이시커니</siteName>
-<index>IS08S</index>
-<contents> 이식이, 한참동안.</contents>
-<engContents> For a while</engContents>
-<janContents> 長い間</janContents>
-<chiContents> 好半天</chiContents>
-<sound>D_B_1421.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7473</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7472</seq>
-<type>DE02</type>
-<name>이레저레</name>
-<siteName>이레저레</siteName>
-<index>IS08S</index>
-<contents>이리저리.</contents>
-<engContents> This way and that</engContents>
-<janContents> あちらこちらに</janContents>
-<chiContents> 到&#22788;</chiContents>
-<sound>D_B_1420.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7472</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-<item>
-<seq>7471</seq>
-<type>DE02</type>
-<name>이디저디</name>
-<siteName>이디저디</siteName>
-<index>IS08S</index>
-<contents>여기저기.</contents>
-<engContents> Here and there</engContents>
-<janContents> あちこち</janContents>
-<chiContents> 四&#22788;</chiContents>
-<sound>D_B_1419.mp3</sound>
-<soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7471</soundUrl>
-<use>true</use>
-<category>ADMIN</category>
-</item>
-</list>
-<query>
-<pageSize>100</pageSize>
-<page>1</page>
-<rows>7159</rows>
-</query>
+  <error>false</error>
+  <result>SUCCESS</result>
+  <resultCode>00</resultCode>
+  <resultMsg>success</resultMsg>
+  <list>
+    <item>
+      <seq>7570</seq>
+      <type>DETI</type>
+      <name>돗-거미</name>
+      <siteName>돗거미</siteName>
+      <index>IS03S</index>
+      <contents>황금거미</contents>
+      <engContents>gold spider</engContents>
+      <janContents>コガネグモ</janContents>
+      <chiContents>金&amp;#40644;逍&amp;#36965;蛛</chiContents>
+      <sound>D_A_25470.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7570</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7569</seq>
+      <type>DEIN</type>
+      <name>할망</name>
+      <siteName>할망</siteName>
+      <index>IS14S</index>
+      <contents>할머니</contents>
+      <engContents>Grandmother</engContents>
+      <janContents>お婆さん</janContents>
+      <chiContents>&amp;#22902;&amp;#22902;</chiContents>
+      <sound>D_B_1518.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7569</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7568</seq>
+      <type>DEIN</type>
+      <name>하르방</name>
+      <siteName>하르방</siteName>
+      <index>IS14S</index>
+      <contents>할아버지</contents>
+      <engContents>Grandfather</engContents>
+      <janContents>お爺さん</janContents>
+      <chiContents>&amp;#29239;&amp;#29239;</chiContents>
+      <sound>D_B_15170.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7568</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7567</seq>
+      <type>DE04</type>
+      <name>&amp;#62273;싱</name>
+      <siteName>&amp;#62273;싱</siteName>
+      <index>IS10S</index>
+      <contents>정말. 의심할 때 행여나 될까 하고 추측하는 뜻을 나타내는 말</contents>
+      <engContents>A word to express suspicion</engContents>
+      <janContents>本&amp;#24403;に、疑う時まさかと思って推測する意を現わす言葉</janContents>
+      <chiContents>&amp;#30495;的，&amp;#24576;疑&amp;#26102;，表示推&amp;#27979;&amp;#20852;&amp;#35768;能行之意的&amp;#35789;</chiContents>
+      <sound>D_B_1515.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7567</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7566</seq>
+      <type>DE04</type>
+      <name>&amp;#62273;마</name>
+      <siteName>&amp;#62273;마</siteName>
+      <index>IS10S</index>
+      <contents>&amp;#62273;마-고라=&amp;#62273;마-&amp;#57767;라. 아니원</contents>
+      <engContents>On world</engContents>
+      <janContents>いやまったく</janContents>
+      <chiContents>&amp;#22003;</chiContents>
+      <sound>D_B_1514.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7566</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7565</seq>
+      <type>DE05</type>
+      <name>고라</name>
+      <siteName>고라</siteName>
+      <index>IS01S</index>
+      <contents>&amp;#57767;라=&amp;#58250;려. 더러</contents>
+      <engContents>Sometimes</engContents>
+      <janContents>いくらか、若干</janContents>
+      <chiContents>&amp;#35753;，使</chiContents>
+      <sound>D_B_1513.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7565</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7564</seq>
+      <type>DE04</type>
+      <name>옵서</name>
+      <siteName>옵서</siteName>
+      <index>IS08S</index>
+      <contents>오다</contents>
+      <engContents>Come</engContents>
+      <janContents>&amp;#26469;る</janContents>
+      <chiContents>&amp;#26469;</chiContents>
+      <sound>D_B_1512.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7564</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7563</seq>
+      <type>DE04</type>
+      <name>예게</name>
+      <siteName>예게</siteName>
+      <index>IS08S</index>
+      <contents>예예. '예'를 강조하는 경우</contents>
+      <engContents>A word to emphasize 'yes'</engContents>
+      <janContents>はいはい、「はい」を&amp;#24375;調する場合</janContents>
+      <chiContents>是是，强&amp;#35843;“是”的情&amp;#20917;</chiContents>
+      <sound>D_B_1511.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7563</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7562</seq>
+      <type>DE04</type>
+      <name>에게</name>
+      <siteName>에게</siteName>
+      <index>IS08S</index>
+      <contents>이끼. 생각하는 바와 달랐을 때 이거 머냐는 뜻을 나타내는 말</contents>
+      <engContents>A word to express disappointment</engContents>
+      <janContents>思った通りでなかった時、これは何だという意を現わす言葉</janContents>
+      <chiContents>&amp;#19982;所想的不同&amp;#26102;，表示&amp;#36825;是什&amp;#20040;之意的&amp;#35789;</chiContents>
+      <sound>D_B_1510.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7562</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7561</seq>
+      <type>DE04</type>
+      <name>어이</name>
+      <siteName>어이</siteName>
+      <index>IS08S</index>
+      <contents>여보게, 여봐라</contents>
+      <engContents>Hey there</engContents>
+      <janContents>おい、ちょっと</janContents>
+      <chiContents>&amp;#21890;，&amp;#26469;人&amp;#21834;</chiContents>
+      <sound>D_B_1509.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7561</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7560</seq>
+      <type>DE04</type>
+      <name>양²</name>
+      <siteName>양²</siteName>
+      <index>IS08S</index>
+      <contents>예. 윗 사람에게 묻는 경우</contents>
+      <engContents>Yes (When asked by a senior)</engContents>
+      <janContents>はい、目上の人に聞く場合</janContents>
+      <chiContents>是&amp;#21527;向大人&amp;#35759;&amp;#38382;&amp;#26102;</chiContents>
+      <sound>D_B_1508.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7560</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7559</seq>
+      <type>DE04</type>
+      <name>애개</name>
+      <siteName>애개</siteName>
+      <index>IS08S</index>
+      <contents>모자라다고 생각할 때 나오는 소리</contents>
+      <engContents>How poor</engContents>
+      <janContents>足りないと思う時出る&amp;#22768;</janContents>
+      <chiContents>&amp;#35273;得不&amp;#22815;&amp;#26102;&amp;#35828;的&amp;#35805;</chiContents>
+      <sound>D_B_1507.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7559</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7558</seq>
+      <type>DE04</type>
+      <name>아이구기여</name>
+      <siteName>아이구기여</siteName>
+      <index>IS08S</index>
+      <contents>아이고 아프다'의 뜻을 나타내는 말</contents>
+      <engContents>Ouch</engContents>
+      <janContents>「あぁ、痛い」の意を現わす言葉</janContents>
+      <chiContents>表示“&amp;#21710;&amp;#21727;，疼”之意的&amp;#35789;</chiContents>
+      <sound>D_B_1506.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7558</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7557</seq>
+      <type>DE04</type>
+      <name>무사</name>
+      <siteName>무사</siteName>
+      <index>IS05S</index>
+      <contents>왜</contents>
+      <engContents>Why</engContents>
+      <janContents>なぜ</janContents>
+      <chiContents>&amp;#20026;什&amp;#20040;</chiContents>
+      <sound>D_B_1505.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7557</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7556</seq>
+      <type>DE04</type>
+      <name>메</name>
+      <siteName>메</siteName>
+      <index>IS05S</index>
+      <contents>= 메께라. 별소릴 다</contents>
+      <engContents>Nonsense</engContents>
+      <janContents>とんでもない</janContents>
+      <chiContents>客&amp;#27668;，&amp;#21738;里</chiContents>
+      <sound>D_B_1504.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7556</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7555</seq>
+      <type>DE04</type>
+      <name>날봅서</name>
+      <siteName>날봅서</siteName>
+      <index>IS02S</index>
+      <contents>여보시오</contents>
+      <engContents>Hey</engContents>
+      <janContents>もしもし</janContents>
+      <chiContents>&amp;#21890;</chiContents>
+      <sound>D_B_1503.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7555</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7554</seq>
+      <type>DE04</type>
+      <name>기여</name>
+      <siteName>기여</siteName>
+      <index>IS01S</index>
+      <contents>오냐, 그래</contents>
+      <engContents>OK</engContents>
+      <janContents>そう</janContents>
+      <chiContents>&amp;#21999;，是&amp;#21527;</chiContents>
+      <sound>D_B_1502.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7554</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7553</seq>
+      <type>DE04</type>
+      <name>그거무사</name>
+      <siteName>그거무사</siteName>
+      <index>IS01S</index>
+      <contents>아뿔싸</contents>
+      <engContents>Alas</engContents>
+      <janContents>しまった</janContents>
+      <chiContents>糟&amp;#31957;，我的天</chiContents>
+      <sound>D_B_1501.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7553</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7552</seq>
+      <type>DE04</type>
+      <name>겔쎄</name>
+      <siteName>겔쎄</siteName>
+      <index>IS01S</index>
+      <contents>글쎄</contents>
+      <engContents>Well</engContents>
+      <janContents>そうね、さあ</janContents>
+      <chiContents>是&amp;#21834;，&amp;#38590;&amp;#35828;</chiContents>
+      <sound>D_B_1500.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7552</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7551</seq>
+      <type>DE04</type>
+      <name>게메</name>
+      <siteName>게메</siteName>
+      <index>IS01S</index>
+      <contents>게메서란=게메선. 그러기에. 과연 그렇다는 뜻을 나타내는 말</contents>
+      <engContents>Therefore</engContents>
+      <janContents>それで、なるほどそうだという意を現わす言葉</janContents>
+      <chiContents>&amp;#38590;怪，表示果然如此之意的&amp;#35789;</chiContents>
+      <sound>D_B_1499.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7551</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7550</seq>
+      <type>DE04</type>
+      <name>게¹</name>
+      <siteName>게¹</siteName>
+      <index>IS01S</index>
+      <contents>겐. 그래. 해라 할 자리에 그렇다는 뜻을 나타내는 말</contents>
+      <engContents>That's right</engContents>
+      <janContents>そう</janContents>
+      <chiContents>是&amp;#21527;是&amp;#21834;</chiContents>
+      <sound>D_B_1498.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7550</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7549</seq>
+      <type>DEIN</type>
+      <name>큰말젯 상제</name>
+      <siteName>큰말젯 상제</siteName>
+      <index>IS11S</index>
+      <contents>다섯 중 셋째 상제</contents>
+      <engContents>The third mourner among five</engContents>
+      <janContents>五つのうち三番目の喪主</janContents>
+      <chiContents>五兄弟（姐妹）中老三孝家</chiContents>
+      <sound>D_B_1497.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7549</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7548</seq>
+      <type>DEIN</type>
+      <name>큰말젯 사위</name>
+      <siteName>큰말젯 사위</siteName>
+      <index>IS11S</index>
+      <contents>다섯 중 셋째 사위</contents>
+      <engContents>The third son-in-law among five</engContents>
+      <janContents>五人のうち三番目の壻</janContents>
+      <chiContents>五姐妹中三女&amp;#23167;</chiContents>
+      <sound>D_B_1496.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7548</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7547</seq>
+      <type>DE03</type>
+      <name>큰말젯</name>
+      <siteName>큰말젯</siteName>
+      <index>IS11S</index>
+      <contents>다섯 중 셋째의 인륜 관계</contents>
+      <engContents>The third among five</engContents>
+      <janContents>五人のうち三番目</janContents>
+      <chiContents>五兄弟（姐妹）中老三</chiContents>
+      <sound>D_B_1495.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7547</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7546</seq>
+      <type>DEIN</type>
+      <name>족은말젯 상제</name>
+      <siteName>족은말젯 상제</siteName>
+      <index>IS09S</index>
+      <contents>다섯 중 넷째 상제</contents>
+      <engContents>The forth mourner among five</engContents>
+      <janContents>五つのうち四番目の喪主</janContents>
+      <chiContents>五兄弟（姐妹）中老四孝家</chiContents>
+      <sound>D_B_1494.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7546</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7545</seq>
+      <type>DEIN</type>
+      <name>족은말젯 사위</name>
+      <siteName>족은말젯 사위</siteName>
+      <index>IS09S</index>
+      <contents>다섯 중 넷째 사위</contents>
+      <engContents>The fourth son-in-law among five</engContents>
+      <janContents>五人のうち四番目の壻</janContents>
+      <chiContents>五姐妹中四女&amp;#23167;</chiContents>
+      <sound>D_B_1493.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7545</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7544</seq>
+      <type>DE03</type>
+      <name>족은말젯</name>
+      <siteName>족은말젯</siteName>
+      <index>IS09S</index>
+      <contents>다섯 중 넷째의 인륜 관계</contents>
+      <engContents>The fourth among five</engContents>
+      <janContents>五人のうち四番目</janContents>
+      <chiContents>五兄弟（姐妹）中老四</chiContents>
+      <sound>D_B_1492.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7544</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7543</seq>
+      <type>DE03</type>
+      <name>셍 거</name>
+      <siteName>셍 거</siteName>
+      <index>IS07S</index>
+      <contents>날 것</contents>
+      <engContents>Raw food</engContents>
+      <janContents>生物</janContents>
+      <chiContents>生的</chiContents>
+      <sound>D_B_1491.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7543</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7542</seq>
+      <type>DE03</type>
+      <name>셋 &amp;#58344;</name>
+      <siteName>셋 &amp;#58344;</siteName>
+      <index>IS07S</index>
+      <contents>가운데 딸</contents>
+      <engContents>The daughter in the middle</engContents>
+      <janContents>&amp;#30495;ん中の娘</janContents>
+      <chiContents>排行中&amp;#38388;的女&amp;#20799;</chiContents>
+      <sound>D_B_1490.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7542</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7541</seq>
+      <type>DE03</type>
+      <name>셋 아방</name>
+      <siteName>셋 아방</siteName>
+      <index>IS07S</index>
+      <contents>중부</contents>
+      <engContents>The central part</engContents>
+      <janContents>ニ番目以下のおじ</janContents>
+      <chiContents>仲父</chiContents>
+      <sound>D_B_1489.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7541</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7540</seq>
+      <type>DE03</type>
+      <name>셋 성</name>
+      <siteName>셋 성</siteName>
+      <index>IS07S</index>
+      <contents>가운데 형</contents>
+      <engContents>Elder brother in the middle</engContents>
+      <janContents>&amp;#30495;ん中の兄</janContents>
+      <chiContents>排行中&amp;#38388;的哥哥</chiContents>
+      <sound>D_B_1488.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7540</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7539</seq>
+      <type>DE03</type>
+      <name>셋 동셍</name>
+      <siteName>셋 동셍</siteName>
+      <index>IS07S</index>
+      <contents>가운데 동생</contents>
+      <engContents>Younger brother in the middle</engContents>
+      <janContents>&amp;#30495;ん中の弟(妹)</janContents>
+      <chiContents>排行中&amp;#38388;的弟弟（妹妹）</chiContents>
+      <sound>D_B_1487.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7539</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7538</seq>
+      <type>DE03</type>
+      <name>셋 누이</name>
+      <siteName>셋 누이</siteName>
+      <index>IS07S</index>
+      <contents>가운데 누님</contents>
+      <engContents>The middle sister</engContents>
+      <janContents>&amp;#30495;ん中の姉</janContents>
+      <chiContents>排行中&amp;#38388;的姐姐</chiContents>
+      <sound>D_B_1486.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7538</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7537</seq>
+      <type>DE03</type>
+      <name>셋 놈</name>
+      <siteName>셋 놈</siteName>
+      <index>IS07S</index>
+      <contents>가운데 놈</contents>
+      <engContents>The middle son</engContents>
+      <janContents>&amp;#30495;中のやつ</janContents>
+      <chiContents>中&amp;#38388;的家&amp;#20249;</chiContents>
+      <sound>D_B_1485.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7537</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7536</seq>
+      <type>DE03</type>
+      <name>셋 년</name>
+      <siteName>셋 년</siteName>
+      <index>IS07S</index>
+      <contents>가운데 딸</contents>
+      <engContents>The middle daughter</engContents>
+      <janContents>間に&amp;#25375;まれた娘</janContents>
+      <chiContents>排行中&amp;#38388;的女&amp;#20799;</chiContents>
+      <sound>D_B_14840.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7536</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7535</seq>
+      <type>DE03</type>
+      <name>셋</name>
+      <siteName>셋</siteName>
+      <index>IS07S</index>
+      <contents>샛, 가운데</contents>
+      <engContents>Center</engContents>
+      <janContents>&amp;#30495;ん中</janContents>
+      <chiContents>三，中&amp;#38388;</chiContents>
+      <sound>D_B_1483.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7535</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7534</seq>
+      <type>DE03</type>
+      <name>세양</name>
+      <siteName>세양</siteName>
+      <index>IS07S</index>
+      <contents>수양, &amp;#49653;</contents>
+      <engContents>Fostering</engContents>
+      <janContents>修養</janContents>
+      <chiContents>收&amp;#20859;</chiContents>
+      <sound>D_B_1482.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7534</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7533</seq>
+      <type>DE03</type>
+      <name>새 &amp;#60376;</name>
+      <siteName>새 &amp;#60376;</siteName>
+      <index>IS07S</index>
+      <contents>햇 쌀</contents>
+      <engContents>New rice</engContents>
+      <janContents>新米</janContents>
+      <chiContents>新米</chiContents>
+      <sound>D_B_1481.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7533</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7532</seq>
+      <type>DE03</type>
+      <name>새 서방</name>
+      <siteName>새 서방</siteName>
+      <index>IS07S</index>
+      <contents>신랑</contents>
+      <engContents>Bridegroom</engContents>
+      <janContents>新&amp;#37070;</janContents>
+      <chiContents>新&amp;#37070;</chiContents>
+      <sound>D_B_1480.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7532</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7531</seq>
+      <type>DE03</type>
+      <name>새 곡석</name>
+      <siteName>새 곡석</siteName>
+      <index>IS07S</index>
+      <contents>햇 곡식</contents>
+      <engContents>A new crop of grain</engContents>
+      <janContents>新穀</janContents>
+      <chiContents>新粮食</chiContents>
+      <sound>D_B_1479.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7531</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7530</seq>
+      <type>DE03</type>
+      <name>새 각시</name>
+      <siteName>새 각시</siteName>
+      <index>IS07S</index>
+      <contents>신부</contents>
+      <engContents>Bride</engContents>
+      <janContents>花嫁</janContents>
+      <chiContents>新娘</chiContents>
+      <sound>D_B_1478.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7530</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7529</seq>
+      <type>DE03</type>
+      <name>새</name>
+      <siteName>새</siteName>
+      <index>IS07S</index>
+      <contents>햇</contents>
+      <engContents>New</engContents>
+      <janContents>新</janContents>
+      <chiContents>新</chiContents>
+      <sound>D_B_1477.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7529</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7528</seq>
+      <type>DE03</type>
+      <name>무신</name>
+      <siteName>무신</siteName>
+      <index>IS05S</index>
+      <contents>뭔. 무슨</contents>
+      <engContents>What</engContents>
+      <janContents>何、どんな</janContents>
+      <chiContents>什&amp;#20040;</chiContents>
+      <sound>D_B_1476.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7528</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7527</seq>
+      <type>DE03</type>
+      <name>멧</name>
+      <siteName>멧</siteName>
+      <index>IS05S</index>
+      <contents>몇</contents>
+      <engContents>How many, which</engContents>
+      <janContents>何、幾</janContents>
+      <chiContents>&amp;#20960;</chiContents>
+      <sound>D_B_1475.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7527</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7526</seq>
+      <type>DEIN</type>
+      <name>말젯 &amp;#58344;</name>
+      <siteName>말젯 &amp;#58344;</siteName>
+      <index>IS05S</index>
+      <contents>셋째 딸</contents>
+      <engContents>The third daughter's</engContents>
+      <janContents>三番目の娘</janContents>
+      <chiContents>第三&amp;#20010;女&amp;#20799;</chiContents>
+      <sound>D_B_1474.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7526</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7525</seq>
+      <type>DE03</type>
+      <name>말젯 집</name>
+      <siteName>말젯 집</siteName>
+      <index>IS05S</index>
+      <contents>셋째 집</contents>
+      <engContents>The third son's</engContents>
+      <janContents>三番目の家</janContents>
+      <chiContents>老三的家</chiContents>
+      <sound>D_B_1473.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7525</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7524</seq>
+      <type>DEIN</type>
+      <name>말젯 아&amp;#58255;</name>
+      <siteName>말젯 아&amp;#58255;</siteName>
+      <index>IS05S</index>
+      <contents>셋째 아들</contents>
+      <engContents>The third son</engContents>
+      <janContents>三番目の息子</janContents>
+      <chiContents>第三&amp;#20010;&amp;#20799;子</chiContents>
+      <sound>D_B_1472.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7524</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7523</seq>
+      <type>DEIN</type>
+      <name>말젯삼춘</name>
+      <siteName>말젯삼춘</siteName>
+      <index>IS05S</index>
+      <contents>셋째 삼촌</contents>
+      <engContents>The third uncle</engContents>
+      <janContents>三番目のおじ</janContents>
+      <chiContents>三叔</chiContents>
+      <sound>D_B_1471.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7523</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7522</seq>
+      <type>DE03</type>
+      <name>말젯</name>
+      <siteName>말젯</siteName>
+      <index>IS05S</index>
+      <contents>넷 중 셋째의 인류 관계</contents>
+      <engContents>The third among four</engContents>
+      <janContents>四人の中で三番目の人倫&amp;#38306;係</janContents>
+      <chiContents>四兄弟（姐妹）中老三的人&amp;#38469;&amp;#20851;系</chiContents>
+      <sound>D_B_1470.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7522</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7521</seq>
+      <type>DE03</type>
+      <name>막동이</name>
+      <siteName>막동이</siteName>
+      <index>IS05S</index>
+      <contents>막내동이</contents>
+      <engContents>The youngest</engContents>
+      <janContents>末っ子</janContents>
+      <chiContents>老小</chiContents>
+      <sound>D_B_1469.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7521</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7520</seq>
+      <type>DE03</type>
+      <name>막 일</name>
+      <siteName>막 일</siteName>
+      <index>IS05S</index>
+      <contents>마지막 일</contents>
+      <engContents>The last thing</engContents>
+      <janContents>最後の仕事</janContents>
+      <chiContents>最后事情</chiContents>
+      <sound>D_B_1468.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7520</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7519</seq>
+      <type>DE03</type>
+      <name>다슴</name>
+      <siteName>다슴</siteName>
+      <index>IS03S</index>
+      <contents>다심. 어붓. 의리로 맺어진 인륜 관계</contents>
+      <engContents>Relationship based on righteousness</engContents>
+      <janContents>義理で結ばれた人倫&amp;#38306;係</janContents>
+      <chiContents>多心，&amp;#38752;&amp;#20041;&amp;#27668;形成的人&amp;#20262;&amp;#20851;系</chiContents>
+      <sound>D_B_1467.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7519</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7518</seq>
+      <type>DE03</type>
+      <name>&amp;#57992; 땅</name>
+      <siteName>&amp;#57992; 땅</siteName>
+      <index>IS02S</index>
+      <contents>맨 땅</contents>
+      <engContents>Bare ground</engContents>
+      <janContents>なにもない地面</janContents>
+      <chiContents>地面</chiContents>
+      <sound>D_B_1466.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7518</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7517</seq>
+      <type>DE03</type>
+      <name>&amp;#57992; 거</name>
+      <siteName>&amp;#57992; 거</siteName>
+      <index>IS02S</index>
+      <contents>날 것</contents>
+      <engContents>Raw</engContents>
+      <janContents>生物</janContents>
+      <chiContents>生的</chiContents>
+      <sound>D_B_1465.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7517</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7516</seq>
+      <type>DE03</type>
+      <name>&amp;#57992;</name>
+      <siteName>&amp;#57992;</siteName>
+      <index>IS02S</index>
+      <contents>셍. 날</contents>
+      <engContents>Uncooked</engContents>
+      <janContents>煮ない</janContents>
+      <chiContents>未熟的</chiContents>
+      <sound>D_B_1464.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7516</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7515</seq>
+      <type>DE03</type>
+      <name>&amp;#57987;단 손</name>
+      <siteName>&amp;#57987;단 손</siteName>
+      <index>IS02S</index>
+      <contents>오른 손</contents>
+      <engContents>Right hand</engContents>
+      <janContents>右手</janContents>
+      <chiContents>右手</chiContents>
+      <sound>D_B_1463.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7515</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7514</seq>
+      <type>DE03</type>
+      <name>&amp;#57987;단</name>
+      <siteName>&amp;#57987;단</siteName>
+      <index>IS02S</index>
+      <contents>오른쪽</contents>
+      <engContents>To the right</engContents>
+      <janContents>右側</janContents>
+      <chiContents>右&amp;#20391;</chiContents>
+      <sound>D_B_1462.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7514</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7513</seq>
+      <type>DE03</type>
+      <name>늬</name>
+      <siteName>늬</siteName>
+      <index>IS02S</index>
+      <contents>네</contents>
+      <engContents>You</engContents>
+      <janContents>あなた</janContents>
+      <chiContents>&amp;#24744;</chiContents>
+      <sound>D_B_1461.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7513</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7512</seq>
+      <type>DE03</type>
+      <name>곤 죽</name>
+      <siteName>곤 죽</siteName>
+      <index>IS01S</index>
+      <contents>쌀 죽</contents>
+      <engContents>Rice porridge</engContents>
+      <janContents>米がゆ</janContents>
+      <chiContents>米粥</chiContents>
+      <sound>D_B_1460.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7512</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7511</seq>
+      <type>DE02</type>
+      <name>&amp;#62793;상</name>
+      <siteName>&amp;#62793;상</siteName>
+      <index>IS14S</index>
+      <contents>항상</contents>
+      <engContents>Always</engContents>
+      <janContents>常に</janContents>
+      <chiContents>常常</chiContents>
+      <sound>D_B_1459.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7511</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7510</seq>
+      <type>DE02</type>
+      <name>&amp;#62789;치</name>
+      <siteName>&amp;#62789;치</siteName>
+      <index>IS14S</index>
+      <contents>①함께 ②애당초</contents>
+      <engContents>Together, from the beginning</engContents>
+      <janContents>①一&amp;#32210;に、②&amp;#24403;初</janContents>
+      <chiContents>①一起，②&amp;#24403;初</chiContents>
+      <sound>D_B_1458.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7510</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7509</seq>
+      <type>DE02</type>
+      <name>&amp;#62789;부로</name>
+      <siteName>&amp;#62789;부로</siteName>
+      <index>IS14S</index>
+      <contents>함부로</contents>
+      <engContents>At random</engContents>
+      <janContents>むやみに</janContents>
+      <chiContents>&amp;#38543;便</chiContents>
+      <sound>D_B_1457.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7509</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7508</seq>
+      <type>DE02</type>
+      <name>&amp;#62778;참</name>
+      <siteName>&amp;#62778;참</siteName>
+      <index>IS14S</index>
+      <contents>한참</contents>
+      <engContents>For a while</engContents>
+      <janContents>しばらく</janContents>
+      <chiContents>好一&amp;#20250;&amp;#20799;</chiContents>
+      <sound>D_B_1456.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7508</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7507</seq>
+      <type>DE02</type>
+      <name>&amp;#62778;저</name>
+      <siteName>&amp;#62778;저</siteName>
+      <index>IS14S</index>
+      <contents>어서</contents>
+      <engContents>Quickly</engContents>
+      <janContents>はやく</janContents>
+      <chiContents>&amp;#36214;快</chiContents>
+      <sound>D_B_1455.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7507</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7506</seq>
+      <type>DE02</type>
+      <name>&amp;#62778;디</name>
+      <siteName>&amp;#62778;디</siteName>
+      <index>IS14S</index>
+      <contents>한데, 함께</contents>
+      <engContents>Together</engContents>
+      <janContents>一所、一&amp;#32210;に</janContents>
+      <chiContents>一起</chiContents>
+      <sound>D_B_1454.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7506</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7505</seq>
+      <type>DE02</type>
+      <name>히지부지</name>
+      <siteName>히지부지</siteName>
+      <index>IS14S</index>
+      <contents>흐지부지</contents>
+      <engContents>Vaguely</engContents>
+      <janContents>うやむや</janContents>
+      <chiContents>稀里糊&amp;#28034;</chiContents>
+      <sound>D_B_1453.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7505</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7504</seq>
+      <type>DE02</type>
+      <name>히어뜩이</name>
+      <siteName>히어뜩이</siteName>
+      <index>IS14S</index>
+      <contents>정신이 어지럽게</contents>
+      <engContents>Confusingly</engContents>
+      <janContents>精神が&amp;#20081;れているように</janContents>
+      <chiContents>&amp;#22836;&amp;#26197;，&amp;#21457;&amp;#26197;</chiContents>
+      <sound>D_B_1452.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7504</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7503</seq>
+      <type>DE02</type>
+      <name>히뜩²</name>
+      <siteName>히뜩²</siteName>
+      <index>IS14S</index>
+      <contents>쓰러지는 꼴</contents>
+      <engContents>A way of collapsing</engContents>
+      <janContents>倒れる姿</janContents>
+      <chiContents>&amp;#25684;倒的&amp;#26679;子</chiContents>
+      <sound>D_B_1451.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7503</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7502</seq>
+      <type>DE02</type>
+      <name>히뜨거니</name>
+      <siteName>히뜨거니</siteName>
+      <index>IS14S</index>
+      <contents>히뜩. 새벽 하늘이 부옇게 밝아가는 꼴</contents>
+      <engContents>Beginning to glow light</engContents>
+      <janContents>夜明けに空がうっすら明るくなる&amp;#27096;子</janContents>
+      <chiContents>早晨天灰蒙蒙亮的&amp;#26679;子</chiContents>
+      <sound>D_B_1450.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7502</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7501</seq>
+      <type>DE02</type>
+      <name>흥창망창</name>
+      <siteName>흥창망창</siteName>
+      <index>IS14S</index>
+      <contents>흥청망청</contents>
+      <engContents>With elation</engContents>
+      <janContents>ふんだんに</janContents>
+      <chiContents>&amp;#31351;奢&amp;#26497;侈</chiContents>
+      <sound>D_B_1449.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7501</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7500</seq>
+      <type>DE03</type>
+      <name>곤 &amp;#60376;</name>
+      <siteName>곤 &amp;#60376;</siteName>
+      <index>IS01S</index>
+      <contents>쌀</contents>
+      <engContents>Rice</engContents>
+      <janContents>米</janContents>
+      <chiContents>大米</chiContents>
+      <sound>D_B_1448.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7500</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7499</seq>
+      <type>DE03</type>
+      <name>곤 밥</name>
+      <siteName>곤 밥</siteName>
+      <index>IS01S</index>
+      <contents>흰 밥, 쌀 밥</contents>
+      <engContents>White rice</engContents>
+      <janContents>白ご飯、米飯</janContents>
+      <chiContents>白米&amp;#39277;</chiContents>
+      <sound>D_B_1447.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7499</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7498</seq>
+      <type>DE03</type>
+      <name>곤</name>
+      <siteName>곤</siteName>
+      <index>IS01S</index>
+      <contents>고운</contents>
+      <engContents>Fine</engContents>
+      <janContents>きれいな</janContents>
+      <chiContents>美的</chiContents>
+      <sound>D_B_1446.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7498</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7497</seq>
+      <type>DE02</type>
+      <name>흔들만들</name>
+      <siteName>흔들만들</siteName>
+      <index>IS14S</index>
+      <contents>곤드래만드래.</contents>
+      <engContents>Staggering</engContents>
+      <janContents>ぐでんぐでん、へべれげ</janContents>
+      <chiContents>醉&amp;#37306;&amp;#37306;</chiContents>
+      <sound>D_B_1445.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7497</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7496</seq>
+      <type>DE02</type>
+      <name>하영</name>
+      <siteName>하영</siteName>
+      <index>IS14S</index>
+      <contents>많이.</contents>
+      <engContents>Much</engContents>
+      <janContents>多く</janContents>
+      <chiContents>&amp;#24456;多</chiContents>
+      <sound>D_B_1444.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7496</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7495</seq>
+      <type>DE02</type>
+      <name>펜두룽이</name>
+      <siteName>펜두룽이</siteName>
+      <index>IS13S</index>
+      <contents>펜주룽이=펜드렁이&lt;핀두룽이. 시치미 떼고 그대로 있는 꼴, 겁내지 않고 태연한 꼴.</contents>
+      <engContents>Daringly</engContents>
+      <janContents>恐れないで平&amp;#27671;な&amp;#27096;子</janContents>
+      <chiContents>毫无&amp;#32966;怯，泰然自若的&amp;#26679;子</chiContents>
+      <sound>D_B_1443.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7495</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7494</seq>
+      <type>DE02</type>
+      <name>페삭페삭</name>
+      <siteName>페삭페삭</siteName>
+      <index>IS13S</index>
+      <contents>바삭바삭.</contents>
+      <engContents>With a rustle</engContents>
+      <janContents>サクサク</janContents>
+      <chiContents>脆</chiContents>
+      <sound>D_B_1442.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7494</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7493</seq>
+      <type>DE02</type>
+      <name>페삭</name>
+      <siteName>페삭</siteName>
+      <index>IS13S</index>
+      <contents>바삭.</contents>
+      <engContents>With a crunch</engContents>
+      <janContents>かさっと</janContents>
+      <chiContents>脆生</chiContents>
+      <sound>D_B_1441.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7493</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7492</seq>
+      <type>DE02</type>
+      <name>팰롱팰롱</name>
+      <siteName>팰롱팰롱</siteName>
+      <index>IS13S</index>
+      <contents>펠롱펠롱. 빤짝빤짝.</contents>
+      <engContents>Brilliantly</engContents>
+      <janContents>ピカピカ</janContents>
+      <chiContents>亮&amp;#38378;&amp;#38378;</chiContents>
+      <sound>D_B_1440.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7492</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7491</seq>
+      <type>DE02</type>
+      <name>&amp;#62277;라리</name>
+      <siteName>&amp;#62277;라리</siteName>
+      <index>IS10S</index>
+      <contents>차라리.</contents>
+      <engContents>Rather</engContents>
+      <janContents>いっそ</janContents>
+      <chiContents>索性</chiContents>
+      <sound>D_B_1439.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7491</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7490</seq>
+      <type>DE02</type>
+      <name>천성</name>
+      <siteName>천성</siteName>
+      <index>IS10S</index>
+      <contents>언제나.</contents>
+      <engContents>Always</engContents>
+      <janContents>いつも</janContents>
+      <chiContents>&amp;#24635;是</chiContents>
+      <sound>D_B_1438.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7490</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7489</seq>
+      <type>DE02</type>
+      <name>&amp;#61961;&amp;#61961;이</name>
+      <siteName>&amp;#61961;&amp;#61961;이</siteName>
+      <index>IS09S</index>
+      <contents>매우 자세히.</contents>
+      <engContents>Very much precisely</engContents>
+      <janContents>非常に詳しく</janContents>
+      <chiContents>&amp;#24456;仔&amp;#32454;地</chiContents>
+      <sound>D_B_1437.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7489</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7488</seq>
+      <type>DE02</type>
+      <name>&amp;#61956;질이</name>
+      <siteName>&amp;#61956;질이</siteName>
+      <index>IS09S</index>
+      <contents>잘게, 가늘게.</contents>
+      <engContents>Minutely</engContents>
+      <janContents>細く</janContents>
+      <chiContents>&amp;#32454;&amp;#32454;地</chiContents>
+      <sound>D_B_1436.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7488</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7487</seq>
+      <type>DE02</type>
+      <name>&amp;#61948;주</name>
+      <siteName>&amp;#61948;주</siteName>
+      <index>IS09S</index>
+      <contents>자주.</contents>
+      <engContents>Often</engContents>
+      <janContents>しばしば</janContents>
+      <chiContents>&amp;#32463;常</chiContents>
+      <sound>D_B_1435.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7487</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7486</seq>
+      <type>DE02</type>
+      <name>&amp;#61948;세히</name>
+      <siteName>&amp;#61948;세히</siteName>
+      <index>IS09S</index>
+      <contents>&amp;#61956;상히. 꼼꼼히, 자세히.</contents>
+      <engContents>In detail</engContents>
+      <janContents>き帳面に、詳らかに</janContents>
+      <chiContents>仔&amp;#32454;地</chiContents>
+      <sound>D_B_1434.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7486</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7485</seq>
+      <type>DE02</type>
+      <name>&amp;#61948;못</name>
+      <siteName>&amp;#61948;못</siteName>
+      <index>IS09S</index>
+      <contents>자못.</contents>
+      <engContents>Greatly</engContents>
+      <janContents>いかにも</janContents>
+      <chiContents>&amp;#24456;，&amp;#39047;&amp;#20026;</chiContents>
+      <sound>D_B_1433.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7485</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7484</seq>
+      <type>DE02</type>
+      <name>&amp;#61948;근&amp;#61948;근</name>
+      <siteName>&amp;#61948;근&amp;#61948;근</siteName>
+      <index>IS09S</index>
+      <contents>&amp;#62273;근&amp;#62273;근. 차곡차곡, 차근차근.</contents>
+      <engContents>Steadily</engContents>
+      <janContents>きちんきちんと、じゅんじゅんに</janContents>
+      <chiContents>有&amp;#26465;不紊</chiContents>
+      <sound>D_B_1432.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7484</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7483</seq>
+      <type>DE02</type>
+      <name>짓</name>
+      <siteName>짓</siteName>
+      <index>IS09S</index>
+      <contents>마구.</contents>
+      <engContents>Carelessly</engContents>
+      <janContents>やたらに</janContents>
+      <chiContents>胡&amp;#20081;，&amp;#38543;便</chiContents>
+      <sound>D_B_1431.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7483</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7482</seq>
+      <type>DE02</type>
+      <name>진직</name>
+      <siteName>진직</siteName>
+      <index>IS09S</index>
+      <contents>진작.</contents>
+      <engContents>Already</engContents>
+      <janContents>すぐそのとき、前もって</janContents>
+      <chiContents>早一点</chiContents>
+      <sound>D_B_1430.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7482</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7481</seq>
+      <type>DE02</type>
+      <name>죽게</name>
+      <siteName>죽게</siteName>
+      <index>IS09S</index>
+      <contents>죽도록.</contents>
+      <engContents>To death</engContents>
+      <janContents>死ぬほどに</janContents>
+      <chiContents>&amp;#25340;命地</chiContents>
+      <sound>D_B_1429.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7481</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7480</seq>
+      <type>DE02</type>
+      <name>졸바로</name>
+      <siteName>졸바로</siteName>
+      <index>IS09S</index>
+      <contents>올바르게</contents>
+      <engContents>In a right way</engContents>
+      <janContents>正しく</janContents>
+      <chiContents>正直的</chiContents>
+      <sound>D_B_1428.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7480</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7479</seq>
+      <type>DE02</type>
+      <name>족족</name>
+      <siteName>족족</siteName>
+      <index>IS09S</index>
+      <contents>조끔조끔, 조금씩.</contents>
+      <engContents>Bit by bit</engContents>
+      <janContents>少しずつ</janContents>
+      <chiContents>一点一点</chiContents>
+      <sound>D_B_1427.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7479</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7478</seq>
+      <type>DE02</type>
+      <name>조고마니</name>
+      <siteName>조고마니</siteName>
+      <index>IS09S</index>
+      <contents>자그마니.</contents>
+      <engContents>Tiny</engContents>
+      <janContents>ちっぽけな</janContents>
+      <chiContents>少少地</chiContents>
+      <sound>D_B_1426.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7478</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7477</seq>
+      <type>DE02</type>
+      <name>제나</name>
+      <siteName>제나</siteName>
+      <index>IS09S</index>
+      <contents>제발.</contents>
+      <engContents>Please</engContents>
+      <janContents>なにとぞ、どうか</janContents>
+      <chiContents>千万</chiContents>
+      <sound>D_B_1425.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7477</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7476</seq>
+      <type>DE02</type>
+      <name>잇당</name>
+      <siteName>잇당</siteName>
+      <index>IS08S</index>
+      <contents>있다가, 이따금.</contents>
+      <engContents>On and off</engContents>
+      <janContents>しばらくして、ときおり</janContents>
+      <chiContents>&amp;#36807;一&amp;#20250;&amp;#20799;，有&amp;#26102;</chiContents>
+      <sound>D_B_1424.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7476</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7475</seq>
+      <type>DE02</type>
+      <name>이&amp;#62273;록</name>
+      <siteName>이&amp;#62273;록</siteName>
+      <index>IS08S</index>
+      <contents>이처럼.</contents>
+      <engContents>Like this</engContents>
+      <janContents>このように</janContents>
+      <chiContents>就&amp;#36825;&amp;#26679;</chiContents>
+      <sound>D_B_1423.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7475</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7474</seq>
+      <type>DE02</type>
+      <name>이칙</name>
+      <siteName>이칙</siteName>
+      <index>IS08S</index>
+      <contents>인칙, 일찍, 아까.</contents>
+      <engContents>Just before</engContents>
+      <janContents>早く、先程</janContents>
+      <chiContents>早早地，&amp;#21018;才</chiContents>
+      <sound>D_B_1422.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7474</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7473</seq>
+      <type>DE02</type>
+      <name>이시커니</name>
+      <siteName>이시커니</siteName>
+      <index>IS08S</index>
+      <contents>이식이, 한참동안.</contents>
+      <engContents>For a while</engContents>
+      <janContents>長い間</janContents>
+      <chiContents>好半天</chiContents>
+      <sound>D_B_1421.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7473</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7472</seq>
+      <type>DE02</type>
+      <name>이레저레</name>
+      <siteName>이레저레</siteName>
+      <index>IS08S</index>
+      <contents>이리저리.</contents>
+      <engContents>This way and that</engContents>
+      <janContents>あちらこちらに</janContents>
+      <chiContents>到&amp;#22788;</chiContents>
+      <sound>D_B_1420.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7472</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+    <item>
+      <seq>7471</seq>
+      <type>DE02</type>
+      <name>이디저디</name>
+      <siteName>이디저디</siteName>
+      <index>IS08S</index>
+      <contents>여기저기.</contents>
+      <engContents>Here and there</engContents>
+      <janContents>あちこち</janContents>
+      <chiContents>四&amp;#22788;</chiContents>
+      <sound>D_B_1419.mp3</sound>
+      <soundUrl>https://www.jeju.go.kr/api/culture/dialect?dialect=7471</soundUrl>
+      <use>true</use>
+      <category>ADMIN</category>
+    </item>
+  </list>
+  <query>
+    <pageSize>100</pageSize>
+    <page>1</page>
+    <rows>7159</rows>
+  </query>
 </jejunetApi>
