@@ -52,8 +52,8 @@
     <item>
       <seq>7567</seq>
       <type>DE04</type>
-      <name>싱</name>
-      <siteName>싱</siteName>
+      <name>ᄎᆞ싱</name>
+      <siteName>ᄎᆞ싱</siteName>
       <index>IS10S</index>
       <contents>정말. 의심할 때 행여나 될까 하고 추측하는 뜻을 나타내는 말</contents>
       <engContents>A word to express suspicion</engContents>
@@ -67,10 +67,10 @@
     <item>
       <seq>7566</seq>
       <type>DE04</type>
-      <name>마</name>
-      <siteName>마</siteName>
+      <name>ᄎᆞ마</name>
+      <siteName>ᄎᆞ마</siteName>
       <index>IS10S</index>
-      <contents>마-고라=마-라. 아니원</contents>
+      <contents>ᄎᆞ마-고라=ᄎᆞ마-ᄀᆞ라. 아니원</contents>
       <engContents>On world</engContents>
       <janContents>いやまったく</janContents>
       <chiContents>嗳</chiContents>
@@ -85,7 +85,7 @@
       <name>고라</name>
       <siteName>고라</siteName>
       <index>IS01S</index>
-      <contents>라=려. 더러</contents>
+      <contents>ᄀᆞ라=ᄃᆞ려. 더러</contents>
       <engContents>Sometimes</engContents>
       <janContents>いくらか、若干</janContents>
       <chiContents>让，使</chiContents>
@@ -427,8 +427,8 @@
     <item>
       <seq>7542</seq>
       <type>DE03</type>
-      <name>셋 </name>
-      <siteName>셋 </siteName>
+      <name>셋 ᄄᆞᆯ</name>
+      <siteName>셋 ᄄᆞᆯ</siteName>
       <index>IS07S</index>
       <contents>가운데 딸</contents>
       <engContents>The daughter in the middle</engContents>
@@ -562,8 +562,8 @@
     <item>
       <seq>7533</seq>
       <type>DE03</type>
-      <name>새 </name>
-      <siteName>새 </siteName>
+      <name>새 ᄊᆞᆯ</name>
+      <siteName>새 ᄊᆞᆯ</siteName>
       <index>IS07S</index>
       <contents>햇 쌀</contents>
       <engContents>New rice</engContents>
@@ -667,8 +667,8 @@
     <item>
       <seq>7526</seq>
       <type>DEIN</type>
-      <name>말젯 </name>
-      <siteName>말젯 </siteName>
+      <name>말젯 ᄄᆞᆯ</name>
+      <siteName>말젯 ᄄᆞᆯ</siteName>
       <index>IS05S</index>
       <contents>셋째 딸</contents>
       <engContents>The third daughter's</engContents>
@@ -697,8 +697,8 @@
     <item>
       <seq>7524</seq>
       <type>DEIN</type>
-      <name>말젯 아</name>
-      <siteName>말젯 아</siteName>
+      <name>말젯 아ᄃᆞᆯ</name>
+      <siteName>말젯 아ᄃᆞᆯ</siteName>
       <index>IS05S</index>
       <contents>셋째 아들</contents>
       <engContents>The third son</engContents>
@@ -787,8 +787,8 @@
     <item>
       <seq>7518</seq>
       <type>DE03</type>
-      <name> 땅</name>
-      <siteName> 땅</siteName>
+      <name>ᄂᆞᆯ 땅</name>
+      <siteName>ᄂᆞᆯ 땅</siteName>
       <index>IS02S</index>
       <contents>맨 땅</contents>
       <engContents>Bare ground</engContents>
@@ -802,8 +802,8 @@
     <item>
       <seq>7517</seq>
       <type>DE03</type>
-      <name> 거</name>
-      <siteName> 거</siteName>
+      <name>ᄂᆞᆯ 거</name>
+      <siteName>ᄂᆞᆯ 거</siteName>
       <index>IS02S</index>
       <contents>날 것</contents>
       <engContents>Raw</engContents>
@@ -817,8 +817,8 @@
     <item>
       <seq>7516</seq>
       <type>DE03</type>
-      <name></name>
-      <siteName></siteName>
+      <name>ᄂᆞᆯ</name>
+      <siteName>ᄂᆞᆯ</siteName>
       <index>IS02S</index>
       <contents>셍. 날</contents>
       <engContents>Uncooked</engContents>
@@ -832,8 +832,8 @@
     <item>
       <seq>7515</seq>
       <type>DE03</type>
-      <name>단 손</name>
-      <siteName>단 손</siteName>
+      <name>ᄂᆞ단 손</name>
+      <siteName>ᄂᆞ단 손</siteName>
       <index>IS02S</index>
       <contents>오른 손</contents>
       <engContents>Right hand</engContents>
@@ -847,8 +847,8 @@
     <item>
       <seq>7514</seq>
       <type>DE03</type>
-      <name>단</name>
-      <siteName>단</siteName>
+      <name>ᄂᆞ단</name>
+      <siteName>ᄂᆞ단</siteName>
       <index>IS02S</index>
       <contents>오른쪽</contents>
       <engContents>To the right</engContents>
@@ -892,8 +892,8 @@
     <item>
       <seq>7511</seq>
       <type>DE02</type>
-      <name>상</name>
-      <siteName>상</siteName>
+      <name>ᄒᆞᆼ상</name>
+      <siteName>ᄒᆞᆼ상</siteName>
       <index>IS14S</index>
       <contents>항상</contents>
       <engContents>Always</engContents>
@@ -907,8 +907,8 @@
     <item>
       <seq>7510</seq>
       <type>DE02</type>
-      <name>치</name>
-      <siteName>치</siteName>
+      <name>ᄒᆞᆷ치</name>
+      <siteName>ᄒᆞᆷ치</siteName>
       <index>IS14S</index>
       <contents>①함께 ②애당초</contents>
       <engContents>Together, from the beginning</engContents>
@@ -922,8 +922,8 @@
     <item>
       <seq>7509</seq>
       <type>DE02</type>
-      <name>부로</name>
-      <siteName>부로</siteName>
+      <name>ᄒᆞᆷ부로</name>
+      <siteName>ᄒᆞᆷ부로</siteName>
       <index>IS14S</index>
       <contents>함부로</contents>
       <engContents>At random</engContents>
@@ -937,8 +937,8 @@
     <item>
       <seq>7508</seq>
       <type>DE02</type>
-      <name>참</name>
-      <siteName>참</siteName>
+      <name>ᄒᆞᆫ참</name>
+      <siteName>ᄒᆞᆫ참</siteName>
       <index>IS14S</index>
       <contents>한참</contents>
       <engContents>For a while</engContents>
@@ -952,8 +952,8 @@
     <item>
       <seq>7507</seq>
       <type>DE02</type>
-      <name>저</name>
-      <siteName>저</siteName>
+      <name>ᄒᆞᆫ저</name>
+      <siteName>ᄒᆞᆫ저</siteName>
       <index>IS14S</index>
       <contents>어서</contents>
       <engContents>Quickly</engContents>
@@ -967,8 +967,8 @@
     <item>
       <seq>7506</seq>
       <type>DE02</type>
-      <name>디</name>
-      <siteName>디</siteName>
+      <name>ᄒᆞᆫ디</name>
+      <siteName>ᄒᆞᆫ디</siteName>
       <index>IS14S</index>
       <contents>한데, 함께</contents>
       <engContents>Together</engContents>
@@ -1057,8 +1057,8 @@
     <item>
       <seq>7500</seq>
       <type>DE03</type>
-      <name>곤 </name>
-      <siteName>곤 </siteName>
+      <name>곤 ᄊᆞᆯ</name>
+      <siteName>곤 ᄊᆞᆯ</siteName>
       <index>IS01S</index>
       <contents>쌀</contents>
       <engContents>Rice</engContents>
@@ -1192,8 +1192,8 @@
     <item>
       <seq>7491</seq>
       <type>DE02</type>
-      <name>라리</name>
-      <siteName>라리</siteName>
+      <name>ᄎᆞᆯ라리</name>
+      <siteName>ᄎᆞᆯ라리</siteName>
       <index>IS10S</index>
       <contents>차라리.</contents>
       <engContents>Rather</engContents>
@@ -1222,8 +1222,8 @@
     <item>
       <seq>7489</seq>
       <type>DE02</type>
-      <name>이</name>
-      <siteName>이</siteName>
+      <name>ᄌᆞᆺᄌᆞᆺ이</name>
+      <siteName>ᄌᆞᆺᄌᆞᆺ이</siteName>
       <index>IS09S</index>
       <contents>매우 자세히.</contents>
       <engContents>Very much precisely</engContents>
@@ -1237,8 +1237,8 @@
     <item>
       <seq>7488</seq>
       <type>DE02</type>
-      <name>질이</name>
-      <siteName>질이</siteName>
+      <name>ᄌᆞᆷ질이</name>
+      <siteName>ᄌᆞᆷ질이</siteName>
       <index>IS09S</index>
       <contents>잘게, 가늘게.</contents>
       <engContents>Minutely</engContents>
@@ -1252,8 +1252,8 @@
     <item>
       <seq>7487</seq>
       <type>DE02</type>
-      <name>주</name>
-      <siteName>주</siteName>
+      <name>ᄌᆞ주</name>
+      <siteName>ᄌᆞ주</siteName>
       <index>IS09S</index>
       <contents>자주.</contents>
       <engContents>Often</engContents>
@@ -1267,10 +1267,10 @@
     <item>
       <seq>7486</seq>
       <type>DE02</type>
-      <name>세히</name>
-      <siteName>세히</siteName>
+      <name>ᄌᆞ세히</name>
+      <siteName>ᄌᆞ세히</siteName>
       <index>IS09S</index>
-      <contents>상히. 꼼꼼히, 자세히.</contents>
+      <contents>ᄌᆞᆷ상히. 꼼꼼히, 자세히.</contents>
       <engContents>In detail</engContents>
       <janContents>き帳面に、詳らかに</janContents>
       <chiContents>仔细地</chiContents>
@@ -1282,8 +1282,8 @@
     <item>
       <seq>7485</seq>
       <type>DE02</type>
-      <name>못</name>
-      <siteName>못</siteName>
+      <name>ᄌᆞ못</name>
+      <siteName>ᄌᆞ못</siteName>
       <index>IS09S</index>
       <contents>자못.</contents>
       <engContents>Greatly</engContents>
@@ -1297,10 +1297,10 @@
     <item>
       <seq>7484</seq>
       <type>DE02</type>
-      <name>근근</name>
-      <siteName>근근</siteName>
+      <name>ᄌᆞ근ᄌᆞ근</name>
+      <siteName>ᄌᆞ근ᄌᆞ근</siteName>
       <index>IS09S</index>
-      <contents>근근. 차곡차곡, 차근차근.</contents>
+      <contents>ᄎᆞ근ᄎᆞ근. 차곡차곡, 차근차근.</contents>
       <engContents>Steadily</engContents>
       <janContents>きちんきちんと、じゅんじゅんに</janContents>
       <chiContents>有条不紊</chiContents>
@@ -1432,8 +1432,8 @@
     <item>
       <seq>7475</seq>
       <type>DE02</type>
-      <name>이록</name>
-      <siteName>이록</siteName>
+      <name>이ᄎᆞ록</name>
+      <siteName>이ᄎᆞ록</siteName>
       <index>IS08S</index>
       <contents>이처럼.</contents>
       <engContents>Like this</engContents>
